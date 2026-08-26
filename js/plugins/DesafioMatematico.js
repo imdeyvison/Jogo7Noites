@@ -264,6 +264,10 @@ Scene_Battle.prototype.onMathEnemyOk =
         const questions =
             BancoQuestoes[enemyId];
 
+        console.log(
+            "BANCO COMPLETO DO INIMIGO:",
+                questions
+        );
 
         // =====================================================
         // VERIFICA SE EXISTEM QUESTÕES
@@ -285,15 +289,32 @@ Scene_Battle.prototype.onMathEnemyOk =
 
 
         // =====================================================
-        // POR ENQUANTO PEGAMOS A PRIMEIRA QUESTÃO
+        // SORTEIA UMA QUESTÃO DO BANCO DO INIMIGO
         // =====================================================
 
-        const question =
-            questions[0];
+        const randomIndex = Math.floor(
+            Math.random() * questions.length
+        );
 
+        const question = questions[randomIndex];
 
         console.log(
-            "Questão selecionada:",
+            "Banco do inimigo:",
+            enemyId
+        );
+
+        console.log(
+            "Quantidade de questões:",
+            questions.length
+        );
+
+        console.log(
+            "Índice sorteado:",
+            randomIndex
+        );
+
+        console.log(
+            "Questão sorteada:",
             question.question
         );
 
