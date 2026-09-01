@@ -108,6 +108,66 @@
             );
         };
 
+    // ============================================================
+    // MODIFICAÇÕES PARA SUPORTAR MULTILINHAS (APENAS 3 MÉTODOS)
+    // ============================================================
+
+    // 1. Define altura do item 0 (pergunta) como 5 linhas
+    Window_MathQuestion.prototype.itemHeight = function(index) {
+        if (index === 0) {
+            return this.lineHeight() * 5;
+        }
+        return Window_Selectable.prototype.itemHeight.call(this);
+    };
+
+    // 2. Reposiciona as opções (A, B, C, D) logo abaixo das 5 linhas da pergunta
+    Window_MathQuestion.prototype.itemRect = function(index) {
+        const rect = Window_Selectable.prototype.itemRect.call(this, index);
+        if (index > 0) {
+            rect.y = (this.lineHeight() * 5) + (index - 1) * this.lineHeight();
+            rect.height = this.lineHeight();
+        }
+        return rect;
+    };
+
+    // 3. Usa drawTextEx na pergunta para quebrar linhas automaticamente
+// 3. Função que quebra a linha automaticamente e desenha a pergunta
+Window_MathQuestion.prototype.drawItem = function(index) {
+    if (index === 0) {
+        const rect = this.itemLineRect(index);
+        this.resetFontSettings();
+        
+        // Insere quebras de linha (\n) para não ultrapassar a largura da janela
+        const formattedText = this.wrapText(this._question, rect.width);
+        
+        this.drawTextEx(formattedText, rect.x, rect.y, rect.width);
+    } else {
+        Window_Command.prototype.drawItem.call(this, index);
+    }
+};
+
+// Método auxiliar para calcular e inserir \n onde o texto ultrapassar a largura
+    Window_MathQuestion.prototype.wrapText = function(text, maxWidth) {
+        if (!text) return "";
+        const words = text.split(" ");
+        let currentLine = "";
+        let result = "";
+
+        for (let i = 0; i < words.length; i++) {
+            const testLine = currentLine ? currentLine + " " + words[i] : words[i];
+            const testWidth = this.textSizeEx(testLine).width;
+
+            if (testWidth > maxWidth && currentLine !== "") {
+                result += currentLine + "\n";
+                currentLine = words[i];
+            } else {
+                currentLine = testLine;
+            }
+        }
+        result += currentLine;
+        return result;
+    };
+
 
     // ============================================================
     // CRIA A JANELA NA BATALHA
@@ -128,8 +188,9 @@
     Scene_Battle.prototype.createMathQuestionWindow =
         function() {
 
-            const width = 500;
-            const height = 300;
+            // Aumentado a largura (650) e altura (450) para comportar a pergunta longa
+            const width = 650;
+            const height = 450;
 
             const x =
                 (Graphics.boxWidth - width) / 2;
