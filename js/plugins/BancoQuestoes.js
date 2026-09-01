@@ -112,6 +112,78 @@ const BancoQuestoes = {
             correct: 2
         }
 
-    ]
+    ],
 
+        // ========================================================
+    // INIMIGO ID 5
+    // ========================================================
+
+    5: [
+
+        {
+            question: "Ana tinha uma fita. Ela usou 1/2 da fita em um presente, 1/5 em outro e reservou o restante. Que fração da fita sobrou?",
+
+            answers: [
+                "2/7 da fita",
+                "3/10 da fita",
+                "7/10 da fita",
+                "1/10 da fita"
+            ],
+
+            correct: 1
+        },
+
+        {
+            question: "Para pintar uma parede, Carlos gastou 2/3 de um lata de tinta na primeira demão e 1/4 da lata na segunda demão. Qual a fração total de tinta utilizada?",
+
+            answers: [
+                "3/7 da lata",
+                "3/12 da lata",
+                "11/12 da lata",
+                "5/12 da lata"
+            ],
+
+            correct: 2
+        },
+
+        {
+            question: "Um reservatório estava com 3/4 de sua capacidade cheia. Após uma chuva, recebeu mais 1/2 de água em relação à sua capacidade. Sabendo que transbordou, qual fração da capacidade total do reservatório excedeu o limite (ficou acima de 1 inteiro)?",
+
+            answers: [
+                "1/4 da capacidade",
+                "5/4 da capacidade",
+                "2/4 da capacidade",
+                "3/8 da capacidade"
+            ],
+
+            correct: 0
+        },
+
+        {
+            question: "Em uma corrida, Pedro percorreu 1/3 do percurso no primeiro dia, 2/5 no segundo dia e concluiu o restante no terceiro dia. Que fração do percurso ele correu no terceiro dia?",
+
+            answers: [
+                "3/8 do percurso",
+                "4/15 do percurso",
+                "11/15 do percurso",
+                "1/15 do percurso"
+            ],
+
+            correct: 1
+        },
+
+        {
+            question: "Um chefe de cozinha comprou 2 pacotes e meio de farinha (5/2). Durante a semana, usou 4/3 de pacote para pães e 1/2 pacote para bolos. Quanto sobrou de farinha?",
+
+            answers: [
+                "2/3 de pacote",
+                "5/6 de pacote",
+                "1/3 de pacote",
+                "1/6 de pacote"
+            ],
+
+            correct: 0
+        }
+
+    ]
 };
