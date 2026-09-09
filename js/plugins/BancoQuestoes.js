@@ -11,98 +11,10 @@
 const BancoQuestoes = {
 
     // ========================================================
-    // INIMIGO ID 1 (Mobs da Fase 2)
+    // INIMIGO ID 1 (Mobs da Fase 1)
     // ========================================================
 
     1: [
-
-        {
-            question: "Na Floresta Mágica, você colheu 1/4 de uma cesta de amoras brilhantes pela manhã e mais 2/4 de tarde. Que fração da cesta ficou cheia com as amoras ao todo?",
-
-            answers: [
-                "3/8 da cesta",
-                "3/4 da cesta",
-                "2/4 da cesta",
-                "1/4 da cesta"
-            ],
-
-            correct: 1
-        },
-
-        {
-            question: "Um duende amigável guardava 5/6 de um bolo mágico, mas deu 1/2 desse bolo para um passarinho faminto. Quanto sobrou do bolo mágica?",
-
-            answers: [
-                "4/4 do bolo",
-                "2/6 do bolo",
-                "1/3 do bolo",
-                "4/6 do bolo"
-            ],
-
-            correct: 2
-        },
-
-        {
-            question: "Para acender uma fogueira mágica, um feiticeiro usou 1/3 do seu frasco de poção mágica e 2/5 para criar um escudo protetor. Que fração do frasco de poção ele usou no total?",
-
-            answers: [
-                "3/8 do frasco",
-                "11/15 do frasco",
-                "3/15 do frasco",
-                "1/15 do frasco"
-            ],
-
-            correct: 1
-        },
-
-        {
-            question: "Na Floresta Mágica, um esquilo guardava 3/8 de uma noz dourada pela manhã e encontrou mais 2/8 à tarde. Que fração da noz dourada ele tem agora ao todo?",
-
-            answers: [
-                "5/16 da noz",
-                "5/8 da noz",
-                "1/8 da noz",
-                "6/8 da noz"
-            ],
-
-            correct: 1
-        },
-
-        {
-            question: "Você encontrou uma poção mágica com 4/5 do seu líquido total, mas derramou 1/5 ao desviar de uma raiz encantada. Que fração da poção restou no frasco?",
-
-            answers: [
-                "3/10 da poção",
-                "3/5 da poção",
-                "2/5 da poção",
-                "1/5 da poção"
-            ],
-
-            correct: 1
-        },
-
-        {
-            question: "Uma fada usou 1/4 da sua poção de luz para iluminar um caminho e 1/3 para criar estrelas brilhantes. Que fração da poção ela usou no total?",
-
-            answers: [
-                "2/7 da poção",
-                "7/12 da poção",
-                "2/12 da poção",
-                "1/12 da poção"
-            ],
-
-            correct: 1
-        }
-
-
-    ],
-
-
-    // ========================================================
-    // INIMIGO ID 2 (Mobs da Fase 1)
-    // ========================================================
-
-    2: [
 
 // ========================================================
         // ADIÇÃO (2 Questões)
@@ -220,6 +132,92 @@ const BancoQuestoes = {
             correct: 0
         }
 
+
+    ],
+
+
+    // ========================================================
+    // INIMIGO ID 2 (Mobs da Fase 2)
+    // ========================================================
+
+    2: [
+        {
+            question: "Na Floresta Mágica, você colheu 1/4 de uma cesta de amoras brilhantes pela manhã e mais 2/4 de tarde. Que fração da cesta ficou cheia com as amoras ao todo?",
+
+            answers: [
+                "3/8 da cesta",
+                "3/4 da cesta",
+                "2/4 da cesta",
+                "1/4 da cesta"
+            ],
+
+            correct: 1
+        },
+
+        {
+            question: "Um duende amigável guardava 5/6 de um bolo mágico, mas deu 1/2 desse bolo para um passarinho faminto. Quanto sobrou do bolo mágica?",
+
+            answers: [
+                "4/4 do bolo",
+                "2/6 do bolo",
+                "1/3 do bolo",
+                "4/6 do bolo"
+            ],
+
+            correct: 2
+        },
+
+        {
+            question: "Para acender uma fogueira mágica, um feiticeiro usou 1/3 do seu frasco de poção mágica e 2/5 para criar um escudo protetor. Que fração do frasco de poção ele usou no total?",
+
+            answers: [
+                "3/8 do frasco",
+                "11/15 do frasco",
+                "3/15 do frasco",
+                "1/15 do frasco"
+            ],
+
+            correct: 1
+        },
+
+        {
+            question: "Na Floresta Mágica, um esquilo guardava 3/8 de uma noz dourada pela manhã e encontrou mais 2/8 à tarde. Que fração da noz dourada ele tem agora ao todo?",
+
+            answers: [
+                "5/16 da noz",
+                "5/8 da noz",
+                "1/8 da noz",
+                "6/8 da noz"
+            ],
+
+            correct: 1
+        },
+
+        {
+            question: "Você encontrou uma poção mágica com 4/5 do seu líquido total, mas derramou 1/5 ao desviar de uma raiz encantada. Que fração da poção restou no frasco?",
+
+            answers: [
+                "3/10 da poção",
+                "3/5 da poção",
+                "2/5 da poção",
+                "1/5 da poção"
+            ],
+
+            correct: 1
+        },
+
+        {
+            question: "Uma fada usou 1/4 da sua poção de luz para iluminar um caminho e 1/3 para criar estrelas brilhantes. Que fração da poção ela usou no total?",
+
+            answers: [
+                "2/7 da poção",
+                "7/12 da poção",
+                "2/12 da poção",
+                "1/12 da poção"
+            ],
+
+            correct: 1
+        }
     ],
 
 
