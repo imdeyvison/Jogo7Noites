@@ -313,5 +313,78 @@ const BancoQuestoes = {
             correct: 0
         }
 
-    ]
+    ],
+
+        // ========================================================
+    // INIMIGO ID 6
+    // ========================================================
+
+    6: [
+
+        {
+            question: "Uma fada tinha um fio de teia luminosa. Ela usou 1/2 do fio em um amuleto, 1/5 em outro e guardou o restante na mochila. Que fração do fio de teia sobrou?",
+
+            answers: [
+                "2/7 do fio",
+                "3/10 do fio",
+                "7/10 do fio",
+                "1/10 do fio"
+            ],
+
+            correct: 1
+        },
+
+        {
+            question: "Para restaurar a pintura de um portal sagrado na Floresta Mágica, um elfo gastou 2/3 de um frasco de tinta estelar na primeira camada e 1/4 na segunda camada. Qual a fração total de tinta utilizada?",
+
+            answers: [
+                "3/7 do frasco",
+                "3/12 do frasco",
+                "11/12 do frasco",
+                "5/12 do frasco"
+            ],
+
+            correct: 2
+        },
+
+        {
+            question: "O caldeirão de um alquimista estava com 3/4 de sua capacidade cheia de poção da vida. Após uma tempestade mágica, recebeu mais 1/2 de poção referente à sua capacidade. Sabendo que transbordou, qual fração da capacidade total do caldeirão excedeu o limite (ficou acima de 1 inteiro)?",
+
+            answers: [
+                "1/4 da capacidade",
+                "5/4 da capacidade",
+                "2/4 da capacidade",
+                "3/8 da capacidade"
+            ],
+
+            correct: 0
+        },
+
+        {
+            question: "Na Floresta Mágica, um jovem aprendiz percorreu 1/3 da trilha encantada na primeira noite, 2/5 na segunda noite e concluiu o restante na terceira noite. Que fração da trilha ele percorreu na terceira noite?",
+
+            answers: [
+                "3/8 da trilha",
+                "4/15 da trilha",
+                "11/15 da trilha",
+                "1/15 da trilha"
+            ],
+
+            correct: 1
+        },
+
+        {
+            question: "Um mestre alquimista colheu 2 sacos e meio de pó de vagalume (5/2). Durante a semana na Floresta Mágica, usou 4/3 de saco para poções de luz e 1/2 saco para encantar lanternas. Quanto sobrou de pó de vagalume?",
+
+            answers: [
+                "2/3 de saco",
+                "5/6 de saco",
+                "1/3 de saco",
+                "1/6 de saco"
+            ],
+
+            correct: 0
+        }
+
+    ],
 };
