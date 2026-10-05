@@ -387,4 +387,76 @@ const BancoQuestoes = {
         }
 
     ],
+
+    // ========================================================
+// INIMIGO ID 7
+// ========================================================
+
+7: [
+
+    {
+        question: "Durante uma aventura, o guerreiro Arthur encontrou uma moeda mágica que poderia apresentar dois resultados: Sol ou Lua. Ele lançou a moeda 50 vezes e obteve Sol em 27 lançamentos. Qual foi a frequência relativa do resultado Sol?",
+
+        answers: [
+            "23%",
+            "27%",
+            "46%",
+            "54%"
+        ],
+
+        correct: 3
+    },
+
+    {
+        question: "Na torre de um antigo mago, um dado mágico de seis faces foi lançado 60 vezes. A face 4 apareceu em 12 lançamentos. Com base nesse experimento, qual é a estimativa da probabilidade de obter a face 4?",
+
+        answers: [
+            "10%",
+            "12%",
+            "20%",
+            "24%"
+        ],
+
+        correct: 2
+    },
+
+    {
+        question: "Uma aventureira encontrou um baú contendo poções vermelhas, azuis e verdes. Ela retirou uma poção e a devolveu ao baú 100 vezes. A poção vermelha apareceu 45 vezes, a azul 35 vezes e a verde 20 vezes. Qual poção apresentou a maior estimativa de probabilidade de ser retirada?",
+
+        answers: [
+            "Poção verde",
+            "Poção azul",
+            "Poção vermelha",
+            "Todas apresentam a mesma probabilidade"
+        ],
+
+        correct: 2
+    },
+
+    {
+        question: "Um poderoso mago criou um feitiço que dependia do resultado de um dado. Para testar sua magia, ele realizou uma simulação com 200 lançamentos. Os números pares apareceram 104 vezes e os números ímpares 96 vezes. Qual foi a frequência relativa dos números pares?",
+
+        answers: [
+            "48%",
+            "50%",
+            "52%",
+            "54%"
+        ],
+
+        correct: 2
+    },
+
+    {
+        question: "Para enfrentar o Dragão das Quatro Respostas, um aventureiro precisa responder corretamente a um desafio com quatro alternativas, sendo apenas uma correta. Em uma simulação com 100 tentativas escolhendo ao acaso, ele acertou 28 vezes. Qual alternativa apresenta a frequência relativa observada e a probabilidade teórica de acerto?",
+
+        answers: [
+            "28% e 20%",
+            "28% e 25%",
+            "25% e 28%",
+            "72% e 25%"
+        ],
+
+        correct: 1
+    }
+],
 };
