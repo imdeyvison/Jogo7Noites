@@ -115,7 +115,7 @@
     // 1. Define altura do item 0 (pergunta) como 5 linhas
     Window_MathQuestion.prototype.itemHeight = function(index) {
         if (index === 0) {
-            return this.lineHeight() * 5;
+            return this.lineHeight() * 8;
         }
         return Window_Selectable.prototype.itemHeight.call(this);
     };
@@ -124,7 +124,7 @@
     Window_MathQuestion.prototype.itemRect = function(index) {
         const rect = Window_Selectable.prototype.itemRect.call(this, index);
         if (index > 0) {
-            rect.y = (this.lineHeight() * 5) + (index - 1) * this.lineHeight();
+            rect.y = (this.lineHeight() * 8) + (index - 1) * this.lineHeight();
             rect.height = this.lineHeight();
         }
         return rect;
