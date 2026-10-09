@@ -5,11 +5,13 @@ null,
 {"id":3,"expanded":true,"name":"MAP003","order":3,"parentId":0,"scrollX":1088,"scrollY":790},
 {"id":4,"expanded":false,"name":"Fase3","order":5,"parentId":0,"scrollX":1088,"scrollY":966},
 {"id":5,"expanded":false,"name":"MAP005","order":4,"parentId":0,"scrollX":1238,"scrollY":696},
-{"id":6,"expanded":false,"name":"MAP006","order":11,"parentId":0,"scrollX":1696.5,"scrollY":954},
+{"id":6,"expanded":false,"name":"MAP006","order":11,"parentId":0,"scrollX":1938.8571428571427,"scrollY":2187.428571428571},
 {"id":7,"expanded":false,"name":"Taberna de Graficália","order":6,"parentId":0,"scrollX":1238,"scrollY":696},
 {"id":8,"expanded":true,"name":"Casa1DaFase3","order":7,"parentId":0,"scrollX":742.8,"scrollY":696},
 {"id":9,"expanded":false,"name":"Casa2DaFase3","order":8,"parentId":0,"scrollX":742.8,"scrollY":528},
 {"id":10,"expanded":true,"name":"Casa3DaFase3","order":9,"parentId":0,"scrollX":742.8,"scrollY":504},
 {"id":11,"expanded":true,"name":"Casa4DaFase3","order":10,"parentId":0,"scrollX":742.8,"scrollY":600},
-{"id":12,"expanded":false,"name":"Torre","order":12,"parentId":0,"scrollX":816,"scrollY":896}
+{"id":12,"expanded":false,"name":"Torre","order":12,"parentId":0,"scrollX":822.5454545454545,"scrollY":1073.4545454545455},
+{"id":13,"expanded":false,"name":"Torre 1º Andar","order":13,"parentId":0,"scrollX":0,"scrollY":0},
+{"id":14,"expanded":false,"name":"Castelo 2º Andar","order":14,"parentId":0,"scrollX":0,"scrollY":0}
 ]
