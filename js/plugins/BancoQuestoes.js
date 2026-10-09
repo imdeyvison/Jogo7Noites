@@ -544,4 +544,141 @@ const BancoQuestoes = {
         }
     ],
 
+    // ========================================================
+// INIMIGO ID 9
+// ========================================================
+9: [
+
+    {
+        question: "Um guerreiro precisa escolher seu equipamento antes de enfrentar um dragão. Na loja do reino, existem 3 espadas mágicas diferentes e 4 escudos encantados diferentes. Sabendo que ele escolherá uma espada e um escudo, quantas combinações de equipamento ele poderá formar?",
+
+        answers: [
+            "7 combinações",
+            "12 combinações",
+            "9 combinações",
+            "16 combinações"
+        ],
+
+        correct: 1
+    },
+
+    {
+        question: "Uma maga está preparando sua roupa para participar do Torneio dos Feiticeiros. Ela possui 4 túnicas diferentes, 3 chapéus mágicos e 2 pares de botas encantadas. Escolhendo uma peça de cada tipo, quantos visuais diferentes ela poderá montar?",
+
+        answers: [
+            "9 visuais",
+            "12 visuais",
+            "24 visuais",
+            "18 visuais"
+        ],
+
+        correct: 2
+    },
+
+    {
+        question: "Na Floresta da Aleatoriedade, um aventureiro precisa escolher um caminho para chegar ao castelo. Existem 3 trilhas que levam à primeira ponte e, depois dela, 4 estradas diferentes que levam ao castelo. Quantas rotas diferentes ele poderá percorrer, escolhendo uma trilha e depois uma estrada?",
+
+        answers: [
+            "7 rotas",
+            "12 rotas",
+            "10 rotas",
+            "16 rotas"
+        ],
+
+        correct: 1
+    },
+
+    {
+        question: "Um alquimista possui 5 ingredientes mágicos diferentes para preparar poções e 3 tipos de frascos para armazená-las. Para cada poção, ele deve escolher um ingrediente e um frasco. Quantas combinações diferentes poderá fazer?",
+
+        answers: [
+            "8 combinações",
+            "15 combinações",
+            "10 combinações",
+            "20 combinações"
+        ],
+
+        correct: 1
+    },
+
+    {
+        question: "Para abrir o Portão das Sombras, um herói precisa criar uma senha de três símbolos mágicos. Em cada posição, ele pode escolher entre 4 símbolos diferentes, e os símbolos podem se repetir. Quantas senhas diferentes podem ser formadas?",
+
+        answers: [
+            "12 senhas",
+            "16 senhas",
+            "64 senhas",
+            "24 senhas"
+        ],
+
+        correct: 2
+    },
+
+    {
+        question: "Uma arqueira está se preparando para uma batalha contra os goblins. Ela possui 3 arcos diferentes e 5 tipos de flechas mágicas. Se escolher um arco e um tipo de flecha, quantas combinações de combate poderá utilizar?",
+
+        answers: [
+            "8 combinações",
+            "15 combinações",
+            "10 combinações",
+            "20 combinações"
+        ],
+
+        correct: 1
+    },
+
+    {
+        question: "Na Guilda dos Aventureiros, um jogador precisa criar seu personagem escolhendo uma entre 4 raças fantásticas, uma entre 3 classes e uma entre 2 habilidades especiais iniciais. Quantos personagens diferentes podem ser criados?",
+
+        answers: [
+            "9 personagens",
+            "12 personagens",
+            "24 personagens",
+            "18 personagens"
+        ],
+
+        correct: 2
+    },
+
+    {
+        question: "Um cavaleiro precisa atravessar duas regiões perigosas para chegar à masmorra. Para sair da cidade, existem 4 caminhos. Depois, para atravessar a floresta, existem 3 caminhos diferentes. Quantas rotas completas ele poderá escolher para chegar à masmorra?",
+
+        answers: [
+            "7 rotas",
+            "12 rotas",
+            "16 rotas",
+            "9 rotas"
+        ],
+
+        correct: 1
+    },
+
+    {
+        question: "Um dragão guardião oferece aos aventureiros a possibilidade de escolher um tesouro. Há 2 coroas mágicas, 4 anéis encantados e 3 amuletos de proteção. Se o aventureiro receber um item de cada tipo, quantos conjuntos diferentes de tesouros poderá formar?",
+
+        answers: [
+            "9 conjuntos",
+            "14 conjuntos",
+            "24 conjuntos",
+            "12 conjuntos"
+        ],
+
+        correct: 2
+    },
+
+    {
+        question: "Para lançar um feitiço lendário, uma feiticeira precisa escolher uma entre 3 palavras mágicas, um entre 4 gestos encantados e uma entre 2 pedras de foco. Considerando todas as combinações possíveis, quantas maneiras diferentes existem de lançar o feitiço?",
+
+        answers: [
+            "9 maneiras",
+            "12 maneiras",
+            "24 maneiras",
+            "18 maneiras"
+        ],
+
+        correct: 1
+    }
+
+],
+
 };
