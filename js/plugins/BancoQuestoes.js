@@ -681,4 +681,374 @@ const BancoQuestoes = {
 
 ],
 
+    // ========================================================
+// INIMIGO ID 10 — Zumbi1
+// Habilidade: EF08MA03
+// ========================================================
+
+10: [
+
+    {
+        question: "Um goblin ferreiro oferece a um aventureiro 4 modelos de machado e 3 tipos de cabo mágico. Escolhendo um machado e um cabo, quantas armas diferentes podem ser montadas?",
+
+        answers: [
+            "7 armas",
+            "12 armas",
+            "16 armas",
+            "9 armas"
+        ],
+
+        correct: 1
+    },
+
+    {
+        question: "Para atravessar um pântano encantado, uma aventureira pode escolher entre 3 pontes de madeira e, depois, entre 5 barcos mágicos disponíveis na outra margem. Quantas maneiras diferentes ela tem de combinar uma ponte e um barco?",
+
+        answers: [
+            "8 maneiras",
+            "15 maneiras",
+            "10 maneiras",
+            "20 maneiras"
+        ],
+
+        correct: 1
+    },
+
+    {
+        question: "Um goblin guardião possui 4 tipos de elmo, 2 capas mágicas e 3 pares de botas. Um guerreiro deseja escolher uma peça de cada tipo. Quantos conjuntos completos de armadura ele pode formar?",
+
+        answers: [
+            "9 conjuntos",
+            "12 conjuntos",
+            "24 conjuntos",
+            "18 conjuntos"
+        ],
+
+        correct: 2
+    },
+
+    {
+        question: "Um druida precisa escolher uma entre 5 sementes encantadas para plantar e uma entre 4 magias para fazê-la crescer. Quantas combinações de semente e magia ele pode experimentar?",
+
+        answers: [
+            "9 combinações",
+            "20 combinações",
+            "15 combinações",
+            "25 combinações"
+        ],
+
+        correct: 1
+    },
+
+    {
+        question: "Para confundir os invasores, os goblins criaram uma senha com dois símbolos. Cada posição pode receber qualquer um dos 6 símbolos disponíveis, inclusive repetidos. Quantas senhas diferentes podem ser criadas?",
+
+        answers: [
+            "12 senhas",
+            "30 senhas",
+            "36 senhas",
+            "18 senhas"
+        ],
+
+        correct: 2
+    }
+
+],
+
+// ========================================================
+// INIMIGO ID 11 — Zumbi2
+// Habilidade: EF08MA03
+// ========================================================
+
+11: [
+
+    {
+        question: "Um cavaleiro precisa escolher uma arma para enfrentar os esqueletos. Na cripta, ele encontra 3 espadas, 4 lanças e 2 machados, todos diferentes. Se escolher apenas uma arma, quantas opções ele terá?",
+
+        answers: [
+            "9 opções",
+            "24 opções",
+            "12 opções",
+            "7 opções"
+        ],
+
+        correct: 0
+    },
+
+    {
+        question: "Uma sacerdotisa pode escolher entre 4 orações de proteção e 3 símbolos sagrados para realizar um ritual. Se utilizar uma oração e um símbolo, quantos rituais diferentes poderá realizar?",
+
+        answers: [
+            "7 rituais",
+            "12 rituais",
+            "16 rituais",
+            "9 rituais"
+        ],
+
+        correct: 1
+    },
+
+    {
+        question: "Na cripta, uma porta mágica possui um código de três algarismos. Cada algarismo pode ser escolhido entre 0, 1, 2, 3 e 4, e a repetição é permitida. Quantos códigos diferentes podem ser formados?",
+
+        answers: [
+            "15 códigos",
+            "25 códigos",
+            "60 códigos",
+            "125 códigos"
+        ],
+
+        correct: 3
+    },
+
+    {
+        question: "Um alquimista encontrou 3 essências de fogo, 2 essências de gelo e 4 essências de vento. Para criar um elixir especial, ele deve escolher uma essência de cada elemento. Quantos elixires diferentes poderá preparar?",
+
+        answers: [
+            "9 elixires",
+            "12 elixires",
+            "24 elixires",
+            "18 elixires"
+        ],
+
+        correct: 2
+    },
+
+    {
+        question: "Um explorador pode entrar em uma catacumba por 5 passagens diferentes e sair por uma entre outras 3 passagens. Considerando que qualquer entrada pode ser combinada com qualquer saída, quantos percursos de ida e volta são possíveis?",
+
+        answers: [
+            "8 percursos",
+            "15 percursos",
+            "10 percursos",
+            "20 percursos"
+        ],
+
+        correct: 1
+    }
+
+],
+
+// ========================================================
+// INIMIGO ID 12 — Zumbi3
+// Habilidade: EF08MA03
+// ========================================================
+
+12: [
+
+    {
+        question: "Um mago das sombras conhece 3 feitiços de ataque, 4 feitiços de defesa e 2 feitiços de cura. Para montar uma sequência mágica, ele escolhe um feitiço de cada categoria. Quantas sequências diferentes pode criar?",
+
+        answers: [
+            "9 sequências",
+            "14 sequências",
+            "24 sequências",
+            "12 sequências"
+        ],
+
+        correct: 2
+    },
+
+    {
+        question: "Uma feiticeira possui 5 cristais de cores diferentes e 3 suportes mágicos diferentes. Para montar um artefato, ela escolhe um cristal e um suporte. Quantos artefatos distintos pode montar?",
+
+        answers: [
+            "8 artefatos",
+            "15 artefatos",
+            "10 artefatos",
+            "20 artefatos"
+        ],
+
+        correct: 1
+    },
+
+    {
+        question: "O grimório de um mago exige uma senha de quatro letras. Para cada posição, ele pode escolher entre as letras A, B e C, podendo repetir letras. Quantas senhas diferentes são possíveis?",
+
+        answers: [
+            "12 senhas",
+            "64 senhas",
+            "81 senhas",
+            "24 senhas"
+        ],
+
+        correct: 1
+    },
+
+    {
+        question: "Para invocar um espírito guardião, um mago precisa escolher uma entre 4 runas, uma entre 3 velas encantadas e um entre 5 incensos mágicos. Quantas combinações de ritual são possíveis?",
+
+        answers: [
+            "12 combinações",
+            "20 combinações",
+            "60 combinações",
+            "45 combinações"
+        ],
+
+        correct: 2
+    },
+
+    {
+        question: "Um aprendiz de magia pode escolher entre 6 cajados e 4 livros de feitiços. Ele também precisa selecionar uma entre 3 pedras mágicas para completar seu equipamento. Quantos equipamentos completos diferentes poderá montar?",
+
+        answers: [
+            "13 equipamentos",
+            "24 equipamentos",
+            "36 equipamentos",
+            "72 equipamentos"
+        ],
+
+        correct: 3
+    }
+
+],
+
+// ========================================================
+// INIMIGO ID 13 — Zumbi4
+// Habilidade: EF08MA03
+// ========================================================
+
+13: [
+
+    {
+        question: "Um cavaleiro precisa escolher uma montaria para sua jornada. O estábulo oferece 4 cavalos, 3 lobos gigantes e 2 lagartos de guerra, todos diferentes. Quantas montarias ele pode escolher?",
+
+        answers: [
+            "9 montarias",
+            "24 montarias",
+            "12 montarias",
+            "7 montarias"
+        ],
+
+        correct: 0
+    },
+
+    {
+        question: "Uma armeira real oferece 3 modelos de escudo, 5 modelos de peitoral e 4 modelos de elmo. Um cavaleiro escolherá uma peça de cada categoria. Quantos conjuntos de proteção diferentes pode montar?",
+
+        answers: [
+            "12 conjuntos",
+            "60 conjuntos",
+            "35 conjuntos",
+            "20 conjuntos"
+        ],
+
+        correct: 1
+    },
+
+    {
+        question: "Para abrir um cofre amaldiçoado, o herói precisa inserir dois símbolos em sequência. Existem 8 símbolos disponíveis, e não é permitido repetir o primeiro símbolo na segunda posição. Quantos códigos diferentes podem ser formados?",
+
+        answers: [
+            "16 códigos",
+            "56 códigos",
+            "64 códigos",
+            "72 códigos"
+        ],
+
+        correct: 1
+    },
+
+    {
+        question: "Um cavaleiro pode viajar de seu castelo até uma vila por 4 estradas diferentes. Da vila até uma torre, existem outras 6 estradas possíveis. Quantos trajetos diferentes ligam o castelo à torre passando pela vila?",
+
+        answers: [
+            "10 trajetos",
+            "20 trajetos",
+            "24 trajetos",
+            "36 trajetos"
+        ],
+
+        correct: 2
+    },
+
+    {
+        question: "Um ferreiro encantado fabrica anéis usando uma entre 3 pedras preciosas, um entre 4 metais e um entre 2 símbolos mágicos. Quantos anéis diferentes podem ser fabricados combinando esses elementos?",
+
+        answers: [
+            "9 anéis",
+            "12 anéis",
+            "24 anéis",
+            "18 anéis"
+        ],
+
+        correct: 2
+    }
+
+],
+
+// ========================================================
+// INIMIGO ID 14 — Boss da Fase 4
+// Habilidade: EF08MA03
+// ========================================================
+
+14: [
+
+    {
+        question: "Um dragão ancestral guarda 3 tipos de tesouros: coroas, colares e anéis. Existem 4 coroas diferentes, 5 colares diferentes e 2 anéis diferentes. Se um aventureiro receber um item de cada tipo, quantos conjuntos de tesouro poderá formar?",
+
+        answers: [
+            "11 conjuntos",
+            "20 conjuntos",
+            "40 conjuntos",
+            "30 conjuntos"
+        ],
+
+        correct: 2
+    },
+
+    {
+        question: "Para preparar uma expedição ao Abismo, uma equipe precisa escolher um entre 4 mapas, uma entre 3 bússolas mágicas e um entre 5 kits de sobrevivência. Quantos equipamentos de expedição diferentes podem ser organizados?",
+
+        answers: [
+            "12 equipamentos",
+            "60 equipamentos",
+            "35 equipamentos",
+            "20 equipamentos"
+        ],
+
+        correct: 1
+    },
+
+    {
+        question: "O portal do dragão exige uma senha de três runas. Em cada posição, é possível escolher entre 7 runas, sem restrição de repetição. Quantas senhas diferentes podem ser formadas?",
+
+        answers: [
+            "21 senhas",
+            "49 senhas",
+            "343 senhas",
+            "210 senhas"
+        ],
+
+        correct: 2
+    },
+
+    {
+        question: "Um caçador de dragões possui 2 tipos de armadilhas, 5 tipos de iscas e 3 tipos de redes mágicas. Para montar um plano, ele escolhe um item de cada categoria. Quantos planos diferentes pode montar?",
+
+        answers: [
+            "10 planos",
+            "15 planos",
+            "30 planos",
+            "25 planos"
+        ],
+
+        correct: 2
+    },
+
+    {
+        question: "Na batalha final, um herói pode escolher entre 4 dragões aliados para montar e entre 3 selas encantadas para equipar seu companheiro. Cada dragão pode usar qualquer uma das selas. Quantas combinações de dragão e sela são possíveis?",
+
+        answers: [
+            "7 combinações",
+            "12 combinações",
+            "16 combinações",
+            "24 combinações"
+        ],
+
+        correct: 1
+    }
+
+],
+
 };
