@@ -1051,4 +1051,79 @@ const BancoQuestoes = {
 
 ],
 
+    // ========================================================
+// INIMIGO ID 15 — MÍMICO DO JARDIM ENCANTADO
+// Habilidade: EF09MA20
+// Local: Miniárea de matinho e cogumelos do castelo
+// ========================================================
+
+15: [
+
+    {
+        question: "Hehehe! Você entrou no meu jardim de cogumelos mágicos! 🍄 Em um canteiro existem 4 cogumelos vermelhos e 6 cogumelos azuis. Um aventureiro escolhe um cogumelo ao acaso, devolve-o ao canteiro e depois escolhe outro. Qual é a probabilidade de retirar dois cogumelos vermelhos? Considere que a primeira retirada não altera a segunda.",
+
+        answers: [
+            "16%",
+            "20%",
+            "40%",
+            "36%"
+        ],
+
+        correct: 0
+    },
+
+    {
+        question: "Muito bem, aventureiro! Agora vamos ver se você entende os perigos deste jardim! Em um baú existem 5 poções de cura e 3 poções venenosas. Um herói retira uma poção ao acaso e não a devolve. Em seguida, retira outra poção. Qual é a probabilidade de as duas poções serem de cura?",
+
+        answers: [
+            "25%",
+            "5/14, aproximadamente 35,7%",
+            "5/8, aproximadamente 62,5%",
+            "10/16, aproximadamente 62,5%"
+        ],
+
+        correct: 1
+    },
+
+    {
+        question: "Rá-rá-rá! Dois dados comuns de seis faces são lançados ao mesmo tempo. Qual é a probabilidade de o primeiro dado mostrar 6 e o segundo mostrar um número par? Considere que os resultados dos dados são independentes.",
+
+        answers: [
+            "1/12",
+            "1/6",
+            "1/4",
+            "1/2"
+        ],
+
+        correct: 0
+    },
+
+    {
+        question: "Cuidado com os cogumelos venenosos! Em uma cesta há 3 cogumelos brilhantes e 2 cogumelos venenosos. Um mago retira dois cogumelos, um após o outro, sem devolver o primeiro. Qual é a probabilidade de retirar primeiro um cogumelo brilhante e depois um venenoso?",
+
+        answers: [
+            "3/10, ou 30%",
+            "1/5, ou 20%",
+            "2/5, ou 40%",
+            "3/5, ou 60%"
+        ],
+
+        correct: 0
+    },
+
+    {
+        question: "No meu jardim encantado, você precisa abrir dois baús mágicos. O primeiro baú tem 4 chaves, sendo 1 dourada e 3 prateadas. O segundo tem 5 chaves, sendo 2 douradas e 3 prateadas. Você escolhe uma chave de cada baú. Qual é a probabilidade de escolher duas chaves douradas? Considere que a escolha em um baú não interfere na escolha do outro.",
+
+        answers: [
+            "10%",
+            "20%",
+            "30%",
+            "40%"
+        ],
+
+        correct: 0
+    }
+
+],
+
 };
