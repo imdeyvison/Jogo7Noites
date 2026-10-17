@@ -1126,4 +1126,79 @@ const BancoQuestoes = {
 
 ],
 
+    // ========================================================
+// INIMIGO ID 16 — LIVRO AMALDIÇOADO
+// Habilidade: EF09MA20
+// Local: Biblioteca abandonada do castelo do mestre maligno
+// ========================================================
+
+16: [
+
+    {
+        question: "Uma voz sombria ecoa das páginas do Livro Amaldiçoado: \"Aventureiro, prove que conhece os segredos da probabilidade!\" Em uma estante existem 8 livros antigos, dos quais 3 contêm feitiços proibidos. O jogador escolhe um livro ao acaso, devolve-o à estante e escolhe outro. Qual é a probabilidade de escolher dois livros com feitiços proibidos?",
+
+        answers: [
+            "9/64, aproximadamente 14,06%",
+            "3/8, ou 37,5%",
+            "3/16, ou 18,75%",
+            "6/64, aproximadamente 9,38%"
+        ],
+
+        correct: 0
+    },
+
+    {
+        question: "As páginas do livro começam a virar sozinhas! Entre as páginas encantadas há 6 pergaminhos: 4 contêm encantamentos de proteção e 2 contêm maldições. Um mago retira um pergaminho e não o devolve. Depois, retira outro. Qual é a probabilidade de retirar dois pergaminhos de proteção?",
+
+        answers: [
+            "4/9, aproximadamente 44,44%",
+            "2/5, ou 40%",
+            "8/15, aproximadamente 53,33%",
+            "2/3, aproximadamente 66,67%"
+        ],
+
+        correct: 0
+    },
+
+    {
+        question: "O livro revela duas runas mágicas que precisam ser ativadas para abrir uma passagem secreta. A primeira runa tem 1/4 de probabilidade de ser ativada, e a segunda tem 1/3. Sabendo que os eventos são independentes, qual é a probabilidade de as duas runas serem ativadas?",
+
+        answers: [
+            "7/12, aproximadamente 58,33%",
+            "1/7, aproximadamente 14,29%",
+            "1/12, aproximadamente 8,33%",
+            "1/2, ou 50%"
+        ],
+
+        correct: 2
+    },
+
+    {
+        question: "Uma gaveta secreta da biblioteca guarda 5 chaves antigas: 2 abrem o cofre do mestre maligno e 3 são falsas. Um aventureiro escolhe uma chave ao acaso e a guarda consigo. Sem devolver essa chave, escolhe uma segunda. Qual é a probabilidade de as duas chaves abrirem o cofre?",
+
+        answers: [
+            "1/5, ou 20%",
+            "1/10, ou 10%",
+            "2/5, ou 40%",
+            "1/2, ou 50%"
+        ],
+
+        correct: 1
+    },
+
+    {
+        question: "O último enigma aparece escrito em letras vermelhas no Livro Amaldiçoado! Há dois recipientes mágicos sobre a mesa. O primeiro contém 3 pedras negras e 2 pedras roxas. O segundo contém 4 pedras negras e 1 pedra roxa. Um aventureiro retira uma pedra de cada recipiente. Qual é a probabilidade de retirar duas pedras negras?",
+
+        answers: [
+            "7/10, ou 70%",
+            "12/25, ou 48%",
+            "3/5, ou 60%",
+            "4/5, ou 80%"
+        ],
+
+        correct: 1
+    }
+
+],
+
 };
