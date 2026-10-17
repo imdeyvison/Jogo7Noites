@@ -12,7 +12,7 @@ null,
 {"id":10,"expanded":true,"name":"Casa3DaFase3","order":9,"parentId":0,"scrollX":904.8,"scrollY":508.8},
 {"id":11,"expanded":true,"name":"Casa4DaFase3","order":10,"parentId":0,"scrollX":904.8,"scrollY":691.2},
 {"id":12,"expanded":false,"name":"Fase5.1","order":12,"parentId":0,"scrollX":1347,"scrollY":782.4},
-{"id":13,"expanded":false,"name":"Fase5.2","order":13,"parentId":0,"scrollX":1356.6,"scrollY":1562.3999999999999},
+{"id":13,"expanded":false,"name":"Fase5.2","order":13,"parentId":0,"scrollX":1347,"scrollY":1538.3999999999999},
 {"id":14,"expanded":false,"name":"Fase5.3","order":14,"parentId":0,"scrollX":1347,"scrollY":753.6},
 {"id":15,"expanded":false,"name":"Torre","order":15,"parentId":0,"scrollX":1131,"scrollY":636},
 {"id":16,"expanded":false,"name":"Castelo 2º Andar","order":16,"parentId":0,"scrollX":1131,"scrollY":636}
