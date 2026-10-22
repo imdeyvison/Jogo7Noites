@@ -1201,4 +1201,79 @@ const BancoQuestoes = {
 
 ],
 
+    // ========================================================
+// INIMIGO ID 17 — CHEFÃO DO CASTELO AMALDIÇOADO
+// Habilidade: EF09MA20
+// Local: Topo do castelo amaldiçoado, sob a lua sangrenta
+// ========================================================
+
+17: [
+
+    {
+        question: "ESTE É O MEU ÚLTIMO DESAFIO! Dois altares alimentam minha transformação. O primeiro tem probabilidade de 2/5 de funcionar, e o segundo, de 3/4. Seus poderes são independentes. Qual é a probabilidade de ambos funcionarem e libertarem todo o meu poder? Acerte... ou contemple o fim do seu mundo!\"",
+
+        answers: [
+            "5/9, aproximadamente 55,56%",
+            "3/10, ou 30%",
+            "1/5, ou 20%",
+            "23/20, ou 115%"
+        ],
+
+        correct: 1
+    },
+
+    {
+        question: "Se eu lançar dois dados mágicos de seis faces para te atacar. Para ativar seu escudo, você precisa obter um número maior que 4 no primeiro dado e um número par no segundo. Considerando os resultados independentes, qual é a probabilidade de se ativar o escudo?",
+
+        answers: [
+            "1/6, aproximadamente 16,67%",
+            "1/4, ou 25%",
+            "1/3, aproximadamente 33,33%",
+            "1/12, aproximadamente 8,33%"
+        ],
+
+        correct: 0
+    },
+
+    {
+        question: "Eu possuo 4 poções de cura e 3 poções explosivas comigo. Ao acaso, pego uma poção, mas não a devolvo. Logo depois, pego outra. Qual é a probabilidade de a primeira poção ser de cura e a segunda ser explosiva?",
+
+        answers: [
+            "2/7, aproximadamente 28,57%",
+            "1/3, aproximadamente 33,33%",
+            "2/7? Não, pois os eventos são independentes.",
+            "12/49, aproximadamente 24,49%"
+        ],
+
+        correct: 0
+    },
+
+    {
+        question: "Se eu invocar dois círculos mágicos sobre as torres do castelo. \"O primeiro círculo tem 2/3 de probabilidade de lançar uma maldição, e o segundo tem 3/4 de probabilidade de aprisionar sua alma. Suponha que os eventos sejam independentes. Qual é a probabilidade de você sofrer as duas maldições ao mesmo tempo? HAHAHAHA! Talvez a matemática prolongue sua agonia!\"",
+
+        answers: [
+            "5/7, aproximadamente 71,43%",
+            "1/2, ou 50%",
+            "17/12, aproximadamente 141,67%",
+            "1/2? Não é possível determinar."
+        ],
+
+        correct: 1
+    },
+
+    {
+        question: "A lua sangrenta fica ainda mais brilhante enquanto a criatura prepara seu ataque supremo. Dois selos flutuam diante dela: o primeiro tem 1/4 de probabilidade de se romper, e o segundo tem 2/3 de probabilidade de se romper. Considerando que os eventos são independentes, qual é a probabilidade de ambos os selos se romperem e libertarem a energia necessária para seu golpe final? \"ESTA É A ÚLTIMA CHANCE DE PROVAR SEU VALOR, VIAJANTE!\"",
+
+        answers: [
+            "11/12, aproximadamente 91,67%",
+            "5/12, aproximadamente 41,67%",
+            "1/6, aproximadamente 16,67%",
+            "1/2, ou 50%"
+        ],
+
+        correct: 2
+    }
+
+]
+
 };
