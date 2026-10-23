@@ -1210,7 +1210,7 @@ const BancoQuestoes = {
 17: [
 
     {
-        question: "ESTE É O MEU ÚLTIMO DESAFIO! Dois altares alimentam minha transformação. O primeiro tem probabilidade de 2/5 de funcionar, e o segundo, de 3/4. Seus poderes são independentes. Qual é a probabilidade de ambos funcionarem e libertarem todo o meu poder? Acerte... ou contemple o fim do seu mundo!\"",
+        question: "10ESTE É O MEU ÚLTIMO DESAFIO! Dois altares alimentam minha transformação. O primeiro tem probabilidade de 2/5 de funcionar, e o segundo, de 3/4. Seus poderes são independentes. Qual é a probabilidade de ambos funcionarem e libertarem todo o meu poder? Acerte... ou contemple o fim do seu mundo!\"",
 
         answers: [
             "5/9, aproximadamente 55,56%",
@@ -1260,6 +1260,196 @@ const BancoQuestoes = {
 
         correct: 1
     },
+
+    {
+        question: "A lua sangrenta fica ainda mais brilhante enquanto a criatura prepara seu ataque supremo. Dois selos flutuam diante dela: o primeiro tem 1/4 de probabilidade de se romper, e o segundo tem 2/3 de probabilidade de se romper. Considerando que os eventos são independentes, qual é a probabilidade de ambos os selos se romperem e libertarem a energia necessária para seu golpe final? \"ESTA É A ÚLTIMA CHANCE DE PROVAR SEU VALOR, VIAJANTE!\"",
+
+        answers: [
+            "11/12, aproximadamente 91,67%",
+            "5/12, aproximadamente 41,67%",
+            "1/6, aproximadamente 16,67%",
+            "1/2, ou 50%"
+        ],
+
+        correct: 2
+    }
+
+],
+
+// ========================================================
+// INIMIGO ID 18 — DRAGÃO DE CINCO CABEÇAS
+// Prova Final — Jogo 7 Noites
+// Cada 2 respostas corretas: o dragão perde 1 cabeça
+// ========================================================
+
+18: [
+
+    // ====================================================
+    // QUESTÃO 1 — EF06MA10
+    // Primeira cabeça: escudo de frações
+    // ====================================================
+
+    {
+        question: "A primeira cabeça do dragão abre suas mandíbulas, revelando um núcleo de fogo negro. \"Observe! Minha primeira cabeça está protegida por um escudo mágico! O escudo possui energia equivalente a 3/4 de sua capacidade, mas você conseguiu romper parte dele, causando uma perda de 1/6 dessa capacidade total. Que fração da energia do escudo ainda resta? Responda corretamente, ou minhas chamas consumirão sua alma!\"",
+
+        answers: [
+            "5/12",
+            "11/12",
+            "7/12",
+            "3/4"
+        ],
+
+        correct: 1
+    },
+
+    // ====================================================
+    // QUESTÃO 2 — EF06MA10
+    // Primeira cabeça: energia restante
+    // ====================================================
+
+    {
+        question: "O dragão ruge ao perceber que seu escudo está enfraquecendo. \"NÃO! Você não destruirá minha primeira cabeça! Ainda possuo 5/6 de minha energia defensiva, mas seu último golpe arrancou mais 1/4 da capacidade total do escudo. Calcule a fração que me resta! Se acertar, talvez consiga destruir minha primeira cabeça... mas não espere sobreviver às outras quatro!\"",
+
+        answers: [
+            "7/12",
+            "4/12",
+            "2/3",
+            "1/2"
+        ],
+
+        correct: 0
+    },
+
+    // ====================================================
+    // QUESTÃO 3 — EF06MA10
+    // Segunda cabeça: energia amaldiçoada
+    // ====================================================
+
+    {
+        question: "A primeira cabeça cai, e o dragão solta um rugido que faz a torre estremecer. A segunda cabeça absorve a energia da lua ensanguentada. \"Você pagará por isso! Minha segunda cabeça reuniu 2/5 da energia lunar e absorveu mais 1/4 de sua capacidade total. Qual é a fração de energia que consegui reunir? Mostre que sabe calcular, antes que eu transforme você em cinzas!\"",
+
+        answers: [
+            "3/9",
+            "3/20",
+            "13/20",
+            "11/20"
+        ],
+
+        correct: 2
+    },
+
+    // ====================================================
+    // QUESTÃO 4 — EF07MA34
+    // Segunda cabeça: frequência dos ataques
+    // ====================================================
+
+    {
+        question: "A segunda cabeça dispara uma sequência de raios negros contra a torre. O dragão gargalha: \"Observe os meus ataques! Em um experimento com 40 disparos, 12 atingiram o alvo. Usando a frequência relativa observada, qual foi a porcentagem de acertos dos meus raios? Calcule corretamente, pois o próximo disparo pode ser o último que você verá!\"",
+
+        answers: [
+            "20%",
+            "30%",
+            "40%",
+            "12%"
+        ],
+
+        correct: 1
+    },
+
+    // ====================================================
+    // QUESTÃO 5 — EF07MA34
+    // Terceira cabeça: estimativa da maldição
+    // ====================================================
+
+    {
+        question: "A segunda cabeça é destruída, e o dragão perde o equilíbrio. Furioso, ele invoca uma maldição para aprisionar o protagonista. \"Em 60 tentativas de um ritual sombrio, consegui aprisionar aventureiros 18 vezes. Com base nessa frequência experimental, qual é a probabilidade estimada de minha maldição aprisionar uma vítima? Descubra a chance de escapar, se tiver coragem!\"",
+
+        answers: [
+            "30%",
+            "18%",
+            "40%",
+            "60%"
+        ],
+
+        correct: 0
+    },
+
+    // ====================================================
+    // QUESTÃO 6 — EF08MA03
+    // Terceira cabeça: arsenal de guerra
+    // ====================================================
+
+    {
+        question: "A terceira cabeça abre a boca e invoca um arsenal amaldiçoado para seus guerreiros. \"Seus truques não serão suficientes! Meus soldados podem escolher entre 3 armas, 4 armaduras e 2 amuletos diferentes. Cada soldado deve usar exatamente uma arma, uma armadura e um amuleto. Quantas combinações diferentes de equipamento posso formar para meu exército? Conte minhas possibilidades, antes que eu conte seus últimos segundos!\"",
+
+        answers: [
+            "9 combinações",
+            "12 combinações",
+            "24 combinações",
+            "18 combinações"
+        ],
+
+        correct: 2
+    },
+
+    // ====================================================
+    // QUESTÃO 7 — EF08MA03
+    // Quarta cabeça: passagem do ritual
+    // ====================================================
+
+    {
+        question: "A terceira cabeça cai, e as correntes mágicas que prendem a torre começam a se romper. A quarta cabeça se ergue e bloqueia a passagem. \"Para alcançar meu núcleo, você precisa atravessar meu ritual! Existem 4 capas mágicas, 3 máscaras e 2 cajados disponíveis. Escolhendo uma peça de cada tipo, quantos equipamentos diferentes podem ser montados? Acerte, e talvez consiga se aproximar de mim!\"",
+
+        answers: [
+            "24 combinações",
+            "12 combinações",
+            "9 combinações",
+            "18 combinações"
+        ],
+
+        correct: 0
+    },
+
+    // ====================================================
+    // QUESTÃO 8 — EF09MA20
+    // Quarta cabeça: maldições independentes
+    // ====================================================
+
+    {
+        question: "A quarta cabeça prepara dois ataques simultâneos, enquanto a quinta permanece protegida pela energia da lua. \"Vou lançar duas maldições contra você! A primeira tem probabilidade de 1/2 de acertar o alvo, e a segunda tem probabilidade de 1/4. Os ataques são independentes. Qual é a probabilidade de ambas acertarem você? HAHAHAHA! Que a matemática decida se você merece continuar respirando!\"",
+
+        answers: [
+            "3/4",
+            "1/4",
+            "1/6",
+            "1/8"
+        ],
+
+        correct: 3
+    },
+
+    // ====================================================
+    // QUESTÃO 9 — EF09MA20
+    // Quinta cabeça: chaves amaldiçoadas
+    // ====================================================
+
+    {
+        question: "A quarta cabeça é destruída. Restam apenas a cabeça central e seu núcleo de poder. Se eu invocar dois círculos mágicos sobre as torres do castelo. \"O primeiro círculo tem 2/3 de probabilidade de lançar uma maldição, e o segundo tem 3/4 de probabilidade de aprisionar sua alma. Suponha que os eventos sejam independentes. Qual é a probabilidade de você sofrer as duas maldições ao mesmo tempo? HAHAHAHA! Talvez a matemática prolongue sua agonia!\"",
+
+        answers: [
+            "5/7, aproximadamente 71,43%",
+            "1/2, ou 50%",
+            "17/12, aproximadamente 141,67%",
+            "1/2? Não é possível determinar."
+        ],
+
+        correct: 1
+    },
+
+    // ====================================================
+    // QUESTÃO 10 — EF09MA20
+    // Quinta cabeça: última armadilha
+    // ====================================================
 
     {
         question: "A lua sangrenta fica ainda mais brilhante enquanto a criatura prepara seu ataque supremo. Dois selos flutuam diante dela: o primeiro tem 1/4 de probabilidade de se romper, e o segundo tem 2/3 de probabilidade de se romper. Considerando que os eventos são independentes, qual é a probabilidade de ambos os selos se romperem e libertarem a energia necessária para seu golpe final? \"ESTA É A ÚLTIMA CHANCE DE PROVAR SEU VALOR, VIAJANTE!\"",
