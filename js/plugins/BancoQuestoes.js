@@ -1464,6 +1464,81 @@ const BancoQuestoes = {
         correct: 2
     }
 
+],
+
+    // ========================================================
+// INIMIGO ID 19 — CADEADO MÁGICO DO CALABOUÇO
+// Habilidade: EF09MA20
+// Local: Calabouço escuro do castelo do mago maligno
+// ========================================================
+
+19: [
+
+    {
+        question: "No fundo do calabouço, um cadeado negro desperta e seus olhos vermelhos brilham entre as correntes. Uma voz ecoa das paredes: \"Mortal, duas runas protegem a cela dos prisioneiros! A primeira tem probabilidade de 1/2 de se ativar, e a segunda tem probabilidade de 1/3. Os mecanismos funcionam independentemente. Qual é a probabilidade de as duas runas se ativarem ao mesmo tempo e abrirem o cadeado?\"",
+
+        answers: [
+            "1/5, ou 20%",
+            "1/6, aproximadamente 16,67%",
+            "2/5, ou 40%",
+            "5/6, aproximadamente 83,33%"
+        ],
+
+        correct: 1
+    },
+
+    {
+        question: "O cadeado estala, revelando um compartimento com 5 chaves antigas: 3 douradas e 2 negras. Apenas as douradas abrem a cela. O mecanismo retira uma chave ao acaso e, sem devolvê-la, retira outra. A voz do mago gargalha: \"Se duas chaves forem necessárias para libertar os prisioneiros, qual é a probabilidade de ambas serem douradas? Lembre-se: a primeira chave retirada altera as chances da segunda!\"",
+
+        answers: [
+            "3/10, ou 30%",
+            "9/25, ou 36%",
+            "3/5, ou 60%",
+            "1/2, ou 50%"
+        ],
+
+        correct: 0
+    },
+
+    {
+        question: "Símbolos mágicos aparecem na superfície do cadeado. Para libertar os prisioneiros, o protagonista precisa ativar dois mecanismos: o primeiro funciona com probabilidade de 2/3, e o segundo com probabilidade de 3/4. O cadeado sussurra: \"Meus mecanismos são independentes! Qual é a probabilidade de ambos funcionarem e romperem minhas correntes?\"",
+
+        answers: [
+            "5/7, aproximadamente 71,43%",
+            "1/2, ou 50%",
+            "1/4, ou 25%",
+            "1/2? Não é possível determinar."
+        ],
+
+        correct: 1
+    },
+
+    {
+        question: "Ao lado do cadeado, há uma bolsa com 4 pedras rúnicas azuis e 3 vermelhas. Apenas as azuis desativam a maldição. O protagonista retira uma pedra e, sem devolvê-la, retira outra. Uma voz sombria provoca: \"Qual é a probabilidade de você retirar duas pedras azuis em sequência? Cada escolha muda o destino dos prisioneiros!\"",
+
+        answers: [
+            "4/7, aproximadamente 57,14%",
+            "2/7, aproximadamente 28,57%",
+            "1/3, aproximadamente 33,33%",
+            "16/49, aproximadamente 32,65%"
+        ],
+
+        correct: 1
+    },
+
+    {
+        question: "O cadeado começa a tremer, e as correntes que prendem os prisioneiros brilham em vermelho. Dois selos precisam ser rompidos: o primeiro tem probabilidade de 1/4 de se quebrar, e o segundo tem probabilidade de 2/5. Considerando que os eventos são independentes, a voz do mago pergunta: \"Qual é a probabilidade de os dois selos se romperem e libertarem todos os prisioneiros? Falhe, e eles permanecerão aqui por toda a eternidade!\"",
+
+        answers: [
+            "3/5, ou 60%",
+            "7/20, ou 35%",
+            "1/10, ou 10%",
+            "1/4, ou 25%"
+        ],
+
+        correct: 2
+    }
+
 ]
 
 };
