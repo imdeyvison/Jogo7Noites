@@ -144,7 +144,9 @@ const BancoQuestoes = {
     ],
 
     // ========================================================
-    // INIMIGO ID 2 (Mobs da Fase 2)
+    // INIMIGO ID 2 - Moeda Amaldiçoada
+    // Habilidade:  EF06MA10
+    // Local: Fase 2
     // ========================================================
 
     2: [
