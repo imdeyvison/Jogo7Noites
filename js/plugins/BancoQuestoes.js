@@ -11,130 +11,137 @@
 const BancoQuestoes = {
 
     // ========================================================
-    // INIMIGO ID 1 (Mobs da Fase 1)
+    // INIMIGO ID 1 - Livro Vivo
+    // Habilidade:  Revisão de conteúdos das 4 operações básicas.
+    // Local: Fase 1
     // ========================================================
 
     1: [
 
-// ========================================================
-        // ADIÇÃO (2 Questões)
         // ========================================================
+        // ADIÇÃO (2 QUESTÕES)
+        // ========================================================
+    
         {
-            question: "Em uma floresta, você encontrou 145 moedas de ouro no primeiro baú e 238 moedas no segundo baú. Quantas moedas você conseguiu no total?",
-
+            question: "Ao despertar na arena inicial, o protagonista encontra um livro encantado flutuando sobre a grama. Suas páginas brilham e uma voz mágica diz: \"Primeiro teste, jovem aventureiro! Encontrei 145 moedas de ouro em um baú próximo à floresta e outras 238 moedas em um segundo baú. Se eu juntar todo esse tesouro, quantas moedas terei?\"",
+    
             answers: [
                 "373 moedas",
                 "383 moedas",
                 "378 moedas",
                 "393 moedas"
             ],
-
+    
             correct: 1
         },
-
+    
         {
-            question: "Para restaurar sua vida, o herói tomou uma poção que recuperou 56 pontos de HP e depois outra que recuperou 89 pontos. Quanto de HP ele recuperou ao todo?",
-
+            question: "O livro encantado abre uma página coberta por símbolos luminosos e desafia o protagonista: \"Uma poção mágica recuperou 56 pontos de vida do herói. Em seguida, outra poção recuperou mais 89 pontos. Para descobrir o poder total das poções, some a energia recuperada! Quantos pontos de vida foram restaurados ao todo?\"",
+    
             answers: [
                 "135 pontos",
                 "142 pontos",
                 "145 pontos",
                 "155 pontos"
             ],
-
+    
             correct: 2
         },
-
+    
+    
         // ========================================================
-        // SUBTRAÇÃO (2 Questões)
+        // SUBTRAÇÃO (2 QUESTÕES)
         // ========================================================
+    
         {
-            question: "Você tinha 350 pontos de mana para a batalha. Após usar uma magia poderosa, restaram apenas 127 pontos. Quanto de mana foi gasto na magia?",
-
+            question: "As páginas do livro encantado começam a girar, formando um círculo mágico sobre o campo. Ele anuncia: \"Para lançar uma magia poderosa, o aventureiro possuía 350 pontos de mana. Depois de conjurá-la, restaram apenas 127 pontos. Descubra quanto de mana foi consumido pelo feitiço!\"",
+    
             answers: [
                 "223 pontos",
                 "227 pontos",
                 "233 pontos",
                 "213 pontos"
             ],
-
+    
             correct: 0
         },
-
+    
         {
-            question: "O monstro da fase 1 tinha 500 pontos de vida. Depois de sofrer um ataque crítico, ficou com 184 pontos de vida. Quanto de dano o ataque causou?",
-
+            question: "O livro encantado invoca a imagem de um pequeno monstro da floresta e diz: \"Vamos testar seus conhecimentos de batalha! A criatura possuía 500 pontos de vida, mas recebeu um ataque crítico e ficou com apenas 184 pontos. Quantos pontos de dano o ataque causou?\"",
+    
             answers: [
                 "326 de dano",
                 "316 de dano",
                 "324 de dano",
                 "306 de dano"
             ],
-
+    
             correct: 1
         },
-
+    
+    
         // ========================================================
-        // MULTIPLICAÇÃO (2 Questões)
+        // MULTIPLICAÇÃO (2 QUESTÕES)
         // ========================================================
+    
         {
-            question: "Cada goblin derrotado concede 25 pontos de experiência. Se você derrotou 6 goblins nessa sala, quanta experiência ganhou no total?",
-
+            question: "Uma ilustração surge nas páginas do livro: seis goblins correm pelo campo próximo à floresta. O livro dá uma risada e pergunta: \"Cada goblin derrotado concede 25 pontos de experiência. Se um aventureiro derrotar os seis goblins, quantos pontos de experiência receberá no total? Multiplique e descubra!\"",
+    
             answers: [
                 "125 pontos",
                 "140 pontos",
                 "150 pontos",
                 "175 pontos"
             ],
-
+    
             correct: 2
         },
-
+    
         {
-            question: "O mercador vende flechas mágicas em pacotes com 12 unidades. Se o jogador comprar 7 pacotes, quantas flechas terá acumulado?",
-
+            question: "O livro encantado invoca a imagem de um mercador viajante que vende flechas mágicas na entrada da floresta. Então, ele propõe outro desafio: \"Cada pacote contém 12 flechas. Se o herói comprar 7 pacotes para se preparar para a aventura, quantas flechas terá ao todo?\"",
+    
             answers: [
                 "72 flechas",
                 "84 flechas",
                 "96 flechas",
                 "78 flechas"
             ],
-
+    
             correct: 1
         },
-
+    
+    
         // ========================================================
-        // DIVISÃO (2 Questões)
+        // DIVISÃO (2 QUESTÕES)
         // ========================================================
+    
         {
-            question: "Um grupo de 4 aventureiros encontrou um tesouro com 192 moedas de prata e dividiu igualmente entre si. Quantas moedas cada um recebeu?",
-
+            question: "O livro encantado abre uma página ilustrada com quatro aventureiros diante de um baú cheio de moedas de prata. Sua voz ecoa pela arena: \"Os quatro companheiros encontraram 192 moedas de prata e decidiram dividir o tesouro igualmente. Quantas moedas cada aventureiro receberá?\"",
+    
             answers: [
                 "46 moedas",
                 "48 moedas",
                 "52 moedas",
                 "44 moedas"
             ],
-
+    
             correct: 1
         },
-
+    
         {
-            question: "Você tem 135 poções e precisa organizá-las igualmente em 9 baús no seu inventário. Quantas poções ficarão em cada baú?",
-
+            question: "Por fim, o livro encantado faz surgir nove baús mágicos sobre a grama. As páginas brilham intensamente enquanto ele pergunta: \"Um aventureiro possui 135 poções e precisa distribuí-las igualmente entre os nove baús, sem deixar nenhuma de fora. Quantas poções deverão ser colocadas em cada baú?\"",
+    
             answers: [
                 "15 poções",
                 "13 poções",
                 "14 poções",
                 "16 poções"
             ],
-
+    
             correct: 0
         }
-
-
+    
     ],
-
 
     // ========================================================
     // INIMIGO ID 2 (Mobs da Fase 2)
