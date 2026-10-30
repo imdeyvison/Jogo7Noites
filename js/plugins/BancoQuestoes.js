@@ -150,83 +150,85 @@ const BancoQuestoes = {
     // ========================================================
 
     2: [
+    
         {
-            question: "Na Floresta Mágica, você colheu 1/4 de uma cesta de amoras brilhantes pela manhã e mais 2/4 de tarde. Que fração da cesta ficou cheia com as amoras ao todo?",
-
+            question: "\"PARE AÍ, AVENTUREIRO(A)!\" A moeda amaldiçoada salta sobre uma raiz e encara o protagonista com seus olhos vermelhos. \"Quero testar sua inteligência antes de devorar suas moedas! Eu corrompi 1/4 de um baú de tesouros, e minha companheira corrompeu mais 2/4. Que fração do baú nós duas corrompemos ao todo? Responda, se for capaz!\"",
+    
             answers: [
-                "3/8 da cesta",
-                "3/4 da cesta",
-                "2/4 da cesta",
-                "1/4 da cesta"
+                "3/8 do baú",
+                "3/4 do baú",
+                "2/4 do baú",
+                "1/4 do baú"
             ],
-
+    
             correct: 1
         },
-
+    
         {
-            question: "Um duende amigável guardava 5/6 de um bolo mágico, mas deu 1/2 desse bolo para um passarinho faminto. Quanto sobrou do bolo mágica?",
-
+            question: "\"HAHAHA! ACHA QUE CONSEGUE ME ENGANAR?\" A moeda amaldiçoada gira no ar e projeta a imagem de um bolo mágico. \"Um viajante possuía 5/6 de um bolo, mas eu roubei 1/2 do bolo inteiro! Diga-me, aventureiro: que fração do bolo sobrou para aquele pobre coitado? Se errar, roubarei também o seu lanche!\"",
+    
             answers: [
                 "4/4 do bolo",
                 "2/6 do bolo",
                 "1/3 do bolo",
                 "4/6 do bolo"
             ],
-
+    
             correct: 2
         },
-
+    
         {
-            question: "Para acender uma fogueira mágica, um feiticeiro usou 1/3 do seu frasco de poção mágica e 2/5 para criar um escudo protetor. Que fração do frasco de poção ele usou no total?",
-
+            question: "\"VAMOS VER SE SUA MENTE É MAIS FORTE QUE MINHA MALDIÇÃO!\" A moeda amaldiçoada libera uma fumaça roxa e cria um frasco flutuante. \"Usei 1/3 deste frasco para espalhar minha magia sombria e mais 2/5 para erguer uma barreira contra os heróis. Que fração do frasco eu usei no total? Não tente fugir da resposta!\"",
+    
             answers: [
                 "3/8 do frasco",
                 "11/15 do frasco",
                 "3/15 do frasco",
                 "1/15 do frasco"
             ],
-
+    
             correct: 1
         },
-
+    
         {
-            question: "Na Floresta Mágica, um esquilo guardava 3/8 de uma noz dourada pela manhã e encontrou mais 2/8 à tarde. Que fração da noz dourada ele tem agora ao todo?",
-
+            question: "\"EI, VOCÊ AÍ! NÃO OUSE IGNORAR MEU DESAFIO!\" A moeda amaldiçoada pousa sobre uma noz dourada e começa a emitir faíscas negras. \"Já corrompi 3/8 desta noz e acabei de corromper mais 2/8! Que fração da noz está sob meu domínio agora? Quero ver se você sabe somar frações!\"",
+    
             answers: [
                 "5/16 da noz",
                 "5/8 da noz",
                 "1/8 da noz",
                 "6/8 da noz"
             ],
-
+    
             correct: 1
         },
-
+    
         {
-            question: "Você encontrou uma poção mágica com 4/5 do seu líquido total, mas derramou 1/5 ao desviar de uma raiz encantada. Que fração da poção restou no frasco?",
-
+            question: "\"RESPONDA COM CUIDADO, AVENTUREIRO(A)!\" A moeda amaldiçoada bloqueia o caminho até uma poção mágica. \"O frasco contém 4/5 de sua capacidade total, mas uma raiz encantada o atingiu e derramou 1/5 da capacidade total. Que fração da poção ainda restou? Se acertar, talvez eu permita que você passe!\"",
+    
             answers: [
-                "3/10 da poção",
-                "3/5 da poção",
-                "2/5 da poção",
-                "1/5 da poção"
+                "3/10 do frasco",
+                "3/5 do frasco",
+                "2/5 do frasco",
+                "1/5 do frasco"
             ],
-
+    
             correct: 1
         },
-
+    
         {
-            question: "Uma fada usou 1/4 da sua poção de luz para iluminar um caminho e 1/3 para criar estrelas brilhantes. Que fração da poção ela usou no total?",
-
+            question: "\"ESTE SERÁ SEU ÚLTIMO DESAFIO, MORTAL!\" A moeda amaldiçoada cresce e brilha intensamente sob as árvores da Floresta das Probabilidades. \"Uma fada tentou destruir minha maldição usando 1/4 de uma poção de luz. Depois, gastou mais 1/3 do frasco para invocar estrelas protetoras. Que fração da poção ela utilizou ao todo? Acerte e prove que é digno de enfrentar os perigos desta floresta!\"",
+    
             answers: [
                 "2/7 da poção",
                 "7/12 da poção",
                 "2/12 da poção",
                 "1/12 da poção"
             ],
-
+    
             correct: 1
         }
+    
     ],
 
 
@@ -251,8 +253,10 @@ const BancoQuestoes = {
 
     ],
 
-        // ========================================================
-    // INIMIGO ID 5 = Chefão da fase 2
+    // ========================================================
+    // INIMIGO ID 5 - Teste
+    // Habilidade: EF06MA10
+    // Local: Fase 2
     // ========================================================
 
     5: [
@@ -324,78 +328,80 @@ const BancoQuestoes = {
 
     ],
 
-        // ========================================================
-    // INIMIGO ID 6
+    // ========================================================
+    // INIMIGO ID 6 - Moeda Errante
+    // Habilidade: EF06MA10
+    // Local: Fase 2
     // ========================================================
 
-    6: [
+6: [
 
-        {
-            question: "Uma fada tinha um fio de teia luminosa. Ela usou 1/2 do fio em um amuleto, 1/5 em outro e guardou o restante na mochila. Que fração do fio de teia sobrou?",
+    {
+        question: "A enorme moeda emerge de dentro do mímico, fazendo o chão da floresta tremer. Seus olhos vermelhos brilham enquanto ela provoca o protagonista: \"Então você veio buscar a chave que protege os gnomos? HAHAHA! Antes, responda! Encontrei um fio de teia luminosa e usei 1/2 dele para criar um amuleto e mais 1/5 para proteger meu tesouro. Que fração do fio ainda sobrou?\"",
 
-            answers: [
-                "2/7 do fio",
-                "3/10 do fio",
-                "7/10 do fio",
-                "1/10 do fio"
-            ],
+        answers: [
+            "2/7 do fio",
+            "3/10 do fio",
+            "7/10 do fio",
+            "1/10 do fio"
+        ],
 
-            correct: 1
-        },
+        correct: 1
+    },
 
-        {
-            question: "Para restaurar a pintura de um portal sagrado na Floresta Mágica, um elfo gastou 2/3 de um frasco de tinta estelar na primeira camada e 1/4 na segunda camada. Qual a fração total de tinta utilizada?",
+    {
+        question: "A moeda gigante gira no ar e invoca a imagem do antigo portão da floresta. \"Este portão já foi protegido pela magia dos elfos, mas agora está sob meu domínio! Um elfo tentou restaurar sua pintura usando 2/3 de um frasco de tinta estelar na primeira camada e mais 1/4 na segunda. Diga-me, aventureiro: que fração do frasco foi utilizada ao todo?\"",
 
-            answers: [
-                "3/7 do frasco",
-                "3/12 do frasco",
-                "11/12 do frasco",
-                "5/12 do frasco"
-            ],
+        answers: [
+            "3/7 do frasco",
+            "3/12 do frasco",
+            "11/12 do frasco",
+            "5/12 do frasco"
+        ],
 
-            correct: 2
-        },
+        correct: 2
+    },
 
-        {
-            question: "O caldeirão de um alquimista estava com 3/4 de sua capacidade cheia de poção da vida. Após uma tempestade mágica, recebeu mais 1/2 de poção referente à sua capacidade. Sabendo que transbordou, qual fração da capacidade total do caldeirão excedeu o limite (ficou acima de 1 inteiro)?",
+    {
+        question: "A criatura lança uma onda de energia sombria sobre a clareira e faz surgir um caldeirão mágico. \"Os gnomos costumavam preparar poções para proteger sua cidade! Mas veja este desastre: um caldeirão estava com 3/4 de sua capacidade preenchida e recebeu mais 1/2 de sua capacidade em uma tempestade mágica. Como transbordou, quero saber: que fração da capacidade ficou acima do limite?\"",
 
-            answers: [
-                "1/4 da capacidade",
-                "5/4 da capacidade",
-                "2/4 da capacidade",
-                "3/8 da capacidade"
-            ],
+        answers: [
+            "1/4 da capacidade",
+            "5/4 da capacidade",
+            "2/4 da capacidade",
+            "3/8 da capacidade"
+        ],
 
-            correct: 0
-        },
+        correct: 0
+    },
 
-        {
-            question: "Na Floresta Mágica, um jovem aprendiz percorreu 1/3 da trilha encantada na primeira noite, 2/5 na segunda noite e concluiu o restante na terceira noite. Que fração da trilha ele percorreu na terceira noite?",
+    {
+        question: "A moeda gigante bate contra o chão, fazendo aparecer uma trilha mágica que atravessa a floresta. \"Um pequeno gnomo tentou fugir do meu domínio! Na primeira noite, percorreu 1/3 da trilha; na segunda, avançou mais 2/5. Ele conseguiu escapar na terceira noite, percorrendo o restante do caminho. Que fração da trilha ele percorreu na última noite?\"",
 
-            answers: [
-                "3/8 da trilha",
-                "4/15 da trilha",
-                "11/15 da trilha",
-                "1/15 da trilha"
-            ],
+        answers: [
+            "3/8 da trilha",
+            "4/15 da trilha",
+            "11/15 da trilha",
+            "1/15 da trilha"
+        ],
 
-            correct: 1
-        },
+        correct: 1
+    },
 
-        {
-            question: "Um mestre alquimista colheu 2 sacos e meio de pó de vagalume (5/2). Durante a semana na Floresta Mágica, usou 4/3 de saco para poções de luz e 1/2 saco para encantar lanternas. Quanto sobrou de pó de vagalume?",
+    {
+        question: "A moeda gigante começa a rachar, mas sua maldição ainda mantém a chave do portão presa em seu interior. Furiosa, ela grita: \"Prepare-se para o seu desafio, aventureiro(a)! Um alquimista gnomo conseguiu colher 2 sacos e meio de pó de vagalume, ou seja, 5/2 de saco. Ele usou 4/3 de saco para preparar poções de luz e mais 1/2 saco para encantar lanternas. Quanto pó de vagalume restou? Responda corretamente, se quiser colocar as mãos na minha chave!\"",
 
-            answers: [
-                "2/3 de saco",
-                "5/6 de saco",
-                "1/3 de saco",
-                "1/6 de saco"
-            ],
+        answers: [
+            "2/3 de saco",
+            "5/6 de saco",
+            "1/3 de saco",
+            "1/6 de saco"
+        ],
 
-            correct: 0
-        }
+        correct: 0
+    }
 
-    ],
+],
 
     // ========================================================
 // INIMIGO ID 7
