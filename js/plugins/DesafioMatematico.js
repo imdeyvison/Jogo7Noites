@@ -115,7 +115,7 @@
     // 1. Define altura do item 0 (pergunta) como 5 linhas
     Window_MathQuestion.prototype.itemHeight = function(index) {
         if (index === 0) {
-            return this.lineHeight() * 8;
+            return this.lineHeight() * 11;
         }
         return Window_Selectable.prototype.itemHeight.call(this);
     };
@@ -124,7 +124,7 @@
     Window_MathQuestion.prototype.itemRect = function(index) {
         const rect = Window_Selectable.prototype.itemRect.call(this, index);
         if (index > 0) {
-            rect.y = (this.lineHeight() * 8) + (index - 1) * this.lineHeight();
+            rect.y = (this.lineHeight() * 11) + (index - 1) * this.lineHeight();
             rect.height = this.lineHeight();
         }
         return rect;
@@ -189,8 +189,8 @@ Window_MathQuestion.prototype.drawItem = function(index) {
         function() {
 
             // Aumentado a largura (650) e altura (450) para comportar a pergunta longa
-            const width = 650;
-            const height = 450;
+            const width = 750;
+            const height = 600;
 
             const x =
                 (Graphics.boxWidth - width) / 2;
