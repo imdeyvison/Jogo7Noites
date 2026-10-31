@@ -403,14 +403,16 @@ const BancoQuestoes = {
 
 ],
 
-    // ========================================================
-// INIMIGO ID 7
+// ========================================================
+// INIMIGO ID 7 - GOBLINS INVASORES
+// Habilidade: EF07MA34
+// Local: Floresta das Probabilidades
 // ========================================================
 
 7: [
 
     {
-        question: "Durante uma aventura, o guerreiro Arthur encontrou uma moeda mágica que poderia apresentar dois resultados: Sol ou Lua. Ele lançou a moeda 50 vezes e obteve Sol em 27 lançamentos. Qual foi a frequência relativa do resultado Sol?",
+        question: "Um dos goblins se aproxima do protagonista fingindo estar assustado, mas logo abre um sorriso malicioso: \"Hehehe! Quer saber como planejamos nosso ataque à Vila de Graficália? Fizemos um teste com uma moeda mágica para decidir por qual caminho nossos invasores deveriam seguir. Lançamos a moeda 50 vezes e obtivemos o resultado Sol em 27 lançamentos. Qual foi a frequência relativa do resultado Sol? Vamos, humano! Mostre que sabe fazer contas!\"",
 
         answers: [
             "23%",
@@ -419,11 +421,11 @@ const BancoQuestoes = {
             "54%"
         ],
 
-        correct: 3
+        correct: 2
     },
 
     {
-        question: "Na torre de um antigo mago, um dado mágico de seis faces foi lançado 60 vezes. A face 4 apareceu em 12 lançamentos. Com base nesse experimento, qual é a estimativa da probabilidade de obter a face 4?",
+        question: "Um goblin guerreiro retira um dado de sua mochila e começa a girá-lo entre os dedos. \"Para decidir quantos guerreiros enviaremos para atacar os portões da vila, realizamos uma simulação! Lançamos este dado mágico de seis faces 60 vezes, e o número 4 apareceu em 12 lançamentos. Com base nesse experimento, qual é a estimativa da probabilidade de obter o número 4? Responda logo, antes que nossos soldados cheguem!\"",
 
         answers: [
             "10%",
@@ -436,7 +438,7 @@ const BancoQuestoes = {
     },
 
     {
-        question: "Uma aventureira encontrou um baú contendo poções vermelhas, azuis e verdes. Ela retirou uma poção e a devolveu ao baú 100 vezes. A poção vermelha apareceu 45 vezes, a azul 35 vezes e a verde 20 vezes. Qual poção apresentou a maior estimativa de probabilidade de ser retirada?",
+        question: "Um goblin abre uma sacola roubada de um antigo mercador e mostra três tipos de poções. \"Veja só o que conseguimos roubar! Temos poções vermelhas, azuis e verdes. Para escolher qual delas usaremos durante a invasão, fizemos um experimento: retiramos uma poção, devolvemos à sacola e repetimos o processo 100 vezes. A vermelha apareceu 45 vezes, a azul 35 vezes e a verde 20 vezes. Qual poção apresentou a maior estimativa de probabilidade de ser retirada?\"",
 
         answers: [
             "Poção verde",
@@ -449,7 +451,7 @@ const BancoQuestoes = {
     },
 
     {
-        question: "Um poderoso mago criou um feitiço que dependia do resultado de um dado. Para testar sua magia, ele realizou uma simulação com 200 lançamentos. Os números pares apareceram 104 vezes e os números ímpares 96 vezes. Qual foi a frequência relativa dos números pares?",
+        question: "O líder dos goblins desenha um plano de invasão no chão e desafia o protagonista: \"Para decidir quais tropas atacarão primeiro, fizemos uma simulação com um dado mágico! Realizamos 200 lançamentos e os números pares apareceram 104 vezes, enquanto os ímpares apareceram 96 vezes. Qual foi a frequência relativa dos números pares? Acerte e talvez eu conte nosso próximo passo... HAHAHA!\"",
 
         answers: [
             "48%",
@@ -462,7 +464,7 @@ const BancoQuestoes = {
     },
 
     {
-        question: "Para enfrentar o Dragão das Quatro Respostas, um aventureiro precisa responder corretamente a um desafio com quatro alternativas, sendo apenas uma correta. Em uma simulação com 100 tentativas escolhendo ao acaso, ele acertou 28 vezes. Qual alternativa apresenta a frequência relativa observada e a probabilidade teórica de acerto?",
+        question: "O goblin líder finalmente abandona a falsa expressão de sofrimento e revela seu verdadeiro plano: \"Chega de fingir que somos prisioneiros indefesos! Vamos conquistar Graficália! Mas antes, quero testar sua sorte. Nosso dragão de guerra possui um desafio com quatro alternativas, sendo apenas uma correta. Em uma simulação de 100 tentativas escolhendo ao acaso, acertamos 28 vezes. Qual alternativa apresenta a frequência relativa observada e a probabilidade teórica de acerto? Responda, humano, se quiser impedir nossa invasão!\"",
 
         answers: [
             "28% e 20%",
@@ -473,6 +475,7 @@ const BancoQuestoes = {
 
         correct: 1
     }
+
 ],
 
        // ========================================================
