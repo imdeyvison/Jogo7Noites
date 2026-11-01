@@ -478,97 +478,123 @@ const BancoQuestoes = {
 
 ],
 
-       // ========================================================
-    // INIMIGO ID 8 (Mobs das casinhas presentes na Fase3)
-    // ========================================================
-
-    8: [
-        {
-            question: "Na Floresta Mágica, você colheu 1/4 de uma cesta de amoras brilhantes pela manhã e mais 2/4 de tarde. Que fração da cesta ficou cheia com as amoras ao todo?",
-
-            answers: [
-                "3/8 da cesta",
-                "3/4 da cesta",
-                "2/4 da cesta",
-                "1/4 da cesta"
-            ],
-
-            correct: 1
-        },
-
-        {
-            question: "Um duende amigável guardava 5/6 de um bolo mágico, mas deu 1/2 desse bolo para um passarinho faminto. Quanto sobrou do bolo mágica?",
-
-            answers: [
-                "4/4 do bolo",
-                "2/6 do bolo",
-                "1/3 do bolo",
-                "4/6 do bolo"
-            ],
-
-            correct: 2
-        },
-
-        {
-            question: "Para acender uma fogueira mágica, um feiticeiro usou 1/3 do seu frasco de poção mágica e 2/5 para criar um escudo protetor. Que fração do frasco de poção ele usou no total?",
-
-            answers: [
-                "3/8 do frasco",
-                "11/15 do frasco",
-                "3/15 do frasco",
-                "1/15 do frasco"
-            ],
-
-            correct: 1
-        },
-
-        {
-            question: "Na Floresta Mágica, um esquilo guardava 3/8 de uma noz dourada pela manhã e encontrou mais 2/8 à tarde. Que fração da noz dourada ele tem agora ao todo?",
-
-            answers: [
-                "5/16 da noz",
-                "5/8 da noz",
-                "1/8 da noz",
-                "6/8 da noz"
-            ],
-
-            correct: 1
-        },
-
-        {
-            question: "Você encontrou uma poção mágica com 4/5 do seu líquido total, mas derramou 1/5 ao desviar de uma raiz encantada. Que fração da poção restou no frasco?",
-
-            answers: [
-                "3/10 da poção",
-                "3/5 da poção",
-                "2/5 da poção",
-                "1/5 da poção"
-            ],
-
-            correct: 1
-        },
-
-        {
-            question: "Uma fada usou 1/4 da sua poção de luz para iluminar um caminho e 1/3 para criar estrelas brilhantes. Que fração da poção ela usou no total?",
-
-            answers: [
-                "2/7 da poção",
-                "7/12 da poção",
-                "2/12 da poção",
-                "1/12 da poção"
-            ],
-
-            correct: 1
-        }
-    ],
-
-    // ========================================================
-// INIMIGO ID 9
 // ========================================================
+// INIMIGO ID 8 - MÍMICOS
+// Habilidades: EF06MA10, EF07MA34, EF08MA03 e EF09MA20
+// Local: Diversos - Casas, Vila, Labirinto e Castelo
+// ========================================================
+
+8: [
+
+    // ========================================================
+    // EF06MA10 - ADIÇÃO E SUBTRAÇÃO DE FRAÇÕES
+    // ========================================================
+
+    {
+        question: "O baú aparentemente comum começa a tremer. De repente, abre uma enorme boca cheia de dentes! \"HAHAHA! Pensou que encontraria um tesouro dentro de mim? Primeiro terá que responder! Um aventureiro encontrou 1/4 de um mapa mágico dentro de uma casa abandonada e mais 2/4 em um antigo baú. Que fração do mapa ele conseguiu reunir?\"",
+
+        answers: [
+            "3/8 do mapa",
+            "3/4 do mapa",
+            "2/4 do mapa",
+            "1/4 do mapa"
+        ],
+
+        correct: 1
+    },
+
+    {
+        question: "O mímico estica sua língua monstruosa e faz surgir a imagem de um frasco de poção. \"Tenho uma poção que contém 5/6 de sua capacidade total. Mas um aventureiro roubou uma quantidade equivalente a 1/2 da capacidade do frasco! Agora me diga, espertinho: que fração da poção ainda restou?\"",
+
+        answers: [
+            "4/4 do frasco",
+            "2/6 do frasco",
+            "1/3 do frasco",
+            "4/6 do frasco"
+        ],
+
+        correct: 2
+    },
+
+
+    // ========================================================
+    // EF07MA34 - PROBABILIDADE E FREQUÊNCIA DE OCORRÊNCIAS
+    // ========================================================
+
+    {
+        question: "O mímico começa a girar sobre suas próprias pernas e invoca a imagem de uma chave mágica. \"Quer descobrir se consegue encontrar uma chave verdadeira entre tantas armadilhas? Realizamos um experimento: abrimos e fechamos um baú 40 vezes. Em 12 dessas tentativas, encontramos uma chave verdadeira. Com base nesse experimento, qual foi a frequência relativa de encontrar a chave? Responda antes que eu feche minha boca!\"",
+
+        answers: [
+            "12%",
+            "20%",
+            "30%",
+            "40%"
+        ],
+
+        correct: 2
+    },
+
+
+    // ========================================================
+    // EF08MA03 - PRINCÍPIO MULTIPLICATIVO
+    // ========================================================
+
+    {
+        question: "O mímico se transforma em um armário antigo e faz surgir três túnicas, duas capas e quatro máscaras mágicas. \"Um aventureiro precisa escolher uma túnica, uma capa e uma máscara para entrar disfarçado no castelo. Quantas combinações diferentes ele poderá formar escolhendo uma peça de cada tipo? Faça as contas, humano!\"",
+
+        answers: [
+            "9 combinações",
+            "12 combinações",
+            "18 combinações",
+            "24 combinações"
+        ],
+
+        correct: 3
+    },
+
+
+    // ========================================================
+    // EF09MA20 - EVENTOS INDEPENDENTES E DEPENDENTES
+    // ========================================================
+
+    {
+        question: "O mímico assume a forma de uma pequena mesa e coloca dois dados mágicos sobre ela. \"Vamos testar sua sorte! Para abrir uma passagem secreta, você precisa tirar o número 6 no primeiro dado e um número par no segundo. Os resultados dos dados são independentes. Qual é a probabilidade de conseguir os dois resultados necessários?\"",
+
+        answers: [
+            "1/6, aproximadamente 16,67%",
+            "1/12, aproximadamente 8,33%",
+            "1/3, aproximadamente 33,33%",
+            "1/2, ou 50%"
+        ],
+
+        correct: 1
+    },
+
+    {
+        question: "O mímico abre sua boca enorme e revela uma bolsa com 5 moedas douradas e 3 moedas prateadas. \"Último desafio, aventureiro! Você precisa retirar duas moedas douradas para abrir meu tesouro. A primeira moeda será retirada e não será devolvida à bolsa antes da segunda retirada. Qual é a probabilidade de retirar duas moedas douradas em sequência? Lembre-se: cada retirada altera as chances da próxima!\"",
+
+        answers: [
+            "5/14, aproximadamente 35,71%",
+            "5/8, ou 62,5%",
+            "25/64, aproximadamente 39,06%",
+            "1/2, ou 50%"
+        ],
+
+        correct: 0
+    }
+
+],
+
+// ========================================================
+// INIMIGO ID 9 - FANTASMAS DO CEMITÉRIO
+// Habilidade: EF08MA03
+// Local: Antigo Cemitério - Labirinto Chuvoso
+// ========================================================
+
 9: [
 
     {
-        question: "Um guerreiro precisa escolher seu equipamento antes de enfrentar um dragão. Na loja do reino, existem 3 espadas mágicas diferentes e 4 escudos encantados diferentes. Sabendo que ele escolherá uma espada e um escudo, quantas combinações de equipamento ele poderá formar?",
+        question: "Um fantasma surge de dentro de uma lápide enquanto a chuva cai sobre o cemitério. Sua voz ecoa entre os túmulos: \"Mortal, pretende atravessar este labirinto? Então responda! Um antigo guerreiro precisava se preparar para enfrentar uma criatura das sombras. Ele possuía 3 espadas amaldiçoadas diferentes e 4 escudos fantasmagóricos. Escolhendo uma espada e um escudo, quantas combinações de equipamento poderia formar?\"",
 
         answers: [
             "7 combinações",
@@ -581,7 +607,7 @@ const BancoQuestoes = {
     },
 
     {
-        question: "Uma maga está preparando sua roupa para participar do Torneio dos Feiticeiros. Ela possui 4 túnicas diferentes, 3 chapéus mágicos e 2 pares de botas encantadas. Escolhendo uma peça de cada tipo, quantos visuais diferentes ela poderá montar?",
+        question: "Um espírito aparece flutuando diante de uma estátua quebrada, usando um chapéu torto. \"HAHAHA! Você acha que consegue se disfarçar para escapar dos guardiões deste cemitério? Uma feiticeira precisava escolher seu traje para participar de um ritual sombrio. Ela possuía 4 túnicas, 3 chapéus mágicos e 2 pares de botas. Escolhendo uma peça de cada tipo, quantos visuais diferentes poderia montar?\"",
 
         answers: [
             "9 visuais",
@@ -594,7 +620,7 @@ const BancoQuestoes = {
     },
 
     {
-        question: "Na Floresta da Aleatoriedade, um aventureiro precisa escolher um caminho para chegar ao castelo. Existem 3 trilhas que levam à primeira ponte e, depois dela, 4 estradas diferentes que levam ao castelo. Quantas rotas diferentes ele poderá percorrer, escolhendo uma trilha e depois uma estrada?",
+        question: "Um fantasma atravessa uma parede de pedra e aponta para os corredores do labirinto. \"Está perdido, mortal? Pois até os mortos conhecem estes caminhos! Existem 3 passagens que levam à primeira ponte do cemitério e, depois dela, 4 corredores diferentes que conduzem à saída. Escolhendo uma passagem e depois um corredor, quantas rotas diferentes você poderá percorrer?\"",
 
         answers: [
             "7 rotas",
@@ -607,7 +633,7 @@ const BancoQuestoes = {
     },
 
     {
-        question: "Um alquimista possui 5 ingredientes mágicos diferentes para preparar poções e 3 tipos de frascos para armazená-las. Para cada poção, ele deve escolher um ingrediente e um frasco. Quantas combinações diferentes poderá fazer?",
+        question: "Um espírito surge de um antigo caldeirão abandonado junto a uma sepultura. \"Os alquimistas enterrados neste lugar escondiam seus segredos muito bem! Um deles possuía 5 ingredientes mágicos diferentes e 3 tipos de frascos para armazenar suas poções. Escolhendo um ingrediente e um frasco, quantas combinações diferentes poderia preparar?\"",
 
         answers: [
             "8 combinações",
@@ -620,7 +646,7 @@ const BancoQuestoes = {
     },
 
     {
-        question: "Para abrir o Portão das Sombras, um herói precisa criar uma senha de três símbolos mágicos. Em cada posição, ele pode escolher entre 4 símbolos diferentes, e os símbolos podem se repetir. Quantas senhas diferentes podem ser formadas?",
+        question: "Um fantasma aparece no fim de um corredor escuro, cercado por símbolos brilhantes. \"Para atravessar o Portão das Sombras, você precisará descobrir a senha! Ela é formada por três símbolos mágicos. Em cada posição, existem 4 símbolos diferentes disponíveis, e eles podem se repetir. Quantas senhas diferentes podem ser formadas? Responda, antes que o portão se feche para sempre!\"",
 
         answers: [
             "12 senhas",
@@ -633,7 +659,7 @@ const BancoQuestoes = {
     },
 
     {
-        question: "Uma arqueira está se preparando para uma batalha contra os goblins. Ela possui 3 arcos diferentes e 5 tipos de flechas mágicas. Se escolher um arco e um tipo de flecha, quantas combinações de combate poderá utilizar?",
+        question: "Um espírito guerreiro emerge de uma sepultura segurando um arco transparente. \"Quer enfrentar os mortos deste cemitério? Então escolha suas armas! Uma arqueira possuía 3 arcos diferentes e 5 tipos de flechas mágicas. Se ela escolher um arco e um tipo de flecha, quantas combinações de combate poderá utilizar?\"",
 
         answers: [
             "8 combinações",
@@ -646,7 +672,7 @@ const BancoQuestoes = {
     },
 
     {
-        question: "Na Guilda dos Aventureiros, um jogador precisa criar seu personagem escolhendo uma entre 4 raças fantásticas, uma entre 3 classes e uma entre 2 habilidades especiais iniciais. Quantos personagens diferentes podem ser criados?",
+        question: "Um fantasma com uma coroa enferrujada surge sobre um túmulo antigo. \"Em vida, os aventureiros escolhiam seus destinos antes de entrar neste labirinto. Imagine que um deles pudesse escolher entre 4 raças fantásticas, 3 classes de combate e 2 habilidades especiais iniciais. Quantos personagens diferentes poderiam ser criados?\"",
 
         answers: [
             "9 personagens",
@@ -659,7 +685,7 @@ const BancoQuestoes = {
     },
 
     {
-        question: "Um cavaleiro precisa atravessar duas regiões perigosas para chegar à masmorra. Para sair da cidade, existem 4 caminhos. Depois, para atravessar a floresta, existem 3 caminhos diferentes. Quantas rotas completas ele poderá escolher para chegar à masmorra?",
+        question: "Um espírito aparece no cruzamento de dois corredores, enquanto um relâmpago ilumina as lápides. \"Está procurando a saída? Então calcule! Um cavaleiro precisava atravessar duas regiões perigosas para chegar a uma masmorra. Para sair da cidade, existiam 4 caminhos. Depois, para atravessar a floresta, havia 3 caminhos diferentes. Quantas rotas completas ele poderia escolher?\"",
 
         answers: [
             "7 rotas",
@@ -672,7 +698,7 @@ const BancoQuestoes = {
     },
 
     {
-        question: "Um dragão guardião oferece aos aventureiros a possibilidade de escolher um tesouro. Há 2 coroas mágicas, 4 anéis encantados e 3 amuletos de proteção. Se o aventureiro receber um item de cada tipo, quantos conjuntos diferentes de tesouros poderá formar?",
+        question: "Um fantasma guardião surge diante de um mausoléu e faz três baús flutuarem no ar. \"Os tesouros deste cemitério pertencem aos mortos! Mas vamos imaginar que um aventureiro pudesse escolher 2 coroas mágicas, 4 anéis encantados e 3 amuletos de proteção. Recebendo um item de cada tipo, quantos conjuntos diferentes de tesouros poderia formar?\"",
 
         answers: [
             "9 conjuntos",
@@ -685,7 +711,7 @@ const BancoQuestoes = {
     },
 
     {
-        question: "Para lançar um feitiço lendário, uma feiticeira precisa escolher uma entre 3 palavras mágicas, um entre 4 gestos encantados e uma entre 2 pedras de foco. Considerando todas as combinações possíveis, quantas maneiras diferentes existem de lançar o feitiço?",
+        question: "O último fantasma aparece no centro do labirinto, envolto por uma névoa azulada. Sua voz ecoa por todo o cemitério: \"Este é seu último desafio, mortal! Para lançar um feitiço capaz de abrir o caminho até o castelo, uma feiticeira precisa escolher uma entre 3 palavras mágicas, um entre 4 gestos encantados e uma entre 2 pedras de foco. Quantas maneiras diferentes existem de lançar esse feitiço?\"",
 
         answers: [
             "9 maneiras",
@@ -699,41 +725,42 @@ const BancoQuestoes = {
 
 ],
 
-    // ========================================================
-// INIMIGO ID 10 — Zumbi1
+// ========================================================
+// INIMIGO ID 10 - Zumbi1
 // Habilidade: EF08MA03
+// Local: Antigo Cemitério - Labirinto Chuvoso
 // ========================================================
 
 10: [
 
     {
-        question: "Um goblin ferreiro oferece a um aventureiro 4 modelos de machado e 3 tipos de cabo mágico. Escolhendo um machado e um cabo, quantas armas diferentes podem ser montadas?",
+        question: "Grrr... Você não passará por este cemitério! Minha antiga sepultura foi protegida por 4 selos diferentes e 3 correntes mágicas. Se uma combinação de selo e corrente for necessária para abrir a tumba, quantas combinações diferentes podem ser formadas?",
 
         answers: [
-            "7 armas",
-            "12 armas",
-            "16 armas",
-            "9 armas"
+            "7 combinações",
+            "12 combinações",
+            "16 combinações",
+            "9 combinações"
         ],
 
         correct: 1
     },
 
     {
-        question: "Para atravessar um pântano encantado, uma aventureira pode escolher entre 3 pontes de madeira e, depois, entre 5 barcos mágicos disponíveis na outra margem. Quantas maneiras diferentes ela tem de combinar uma ponte e um barco?",
+        question: "Mortal insolente! Para atravessar uma parte deste labirinto, existem 3 passagens entre as lápides. Depois delas, você encontrará 5 caminhos diferentes até o próximo corredor. Quantos trajetos diferentes poderá realizar?",
 
         answers: [
-            "8 maneiras",
-            "15 maneiras",
-            "10 maneiras",
-            "20 maneiras"
+            "8 trajetos",
+            "15 trajetos",
+            "10 trajetos",
+            "20 trajetos"
         ],
 
         correct: 1
     },
 
     {
-        question: "Um goblin guardião possui 4 tipos de elmo, 2 capas mágicas e 3 pares de botas. Um guerreiro deseja escolher uma peça de cada tipo. Quantos conjuntos completos de armadura ele pode formar?",
+        question: "Hehehe... A feiticeira que me despertou deixou 4 tipos de elmos, 2 capas sombrias e 3 pares de botas em minha tumba. Quantos conjuntos diferentes podem ser formados escolhendo uma peça de cada tipo?",
 
         answers: [
             "9 conjuntos",
@@ -746,7 +773,7 @@ const BancoQuestoes = {
     },
 
     {
-        question: "Um druida precisa escolher uma entre 5 sementes encantadas para plantar e uma entre 4 magias para fazê-la crescer. Quantas combinações de semente e magia ele pode experimentar?",
+        question: "Minha feiticeira utiliza 5 sementes amaldiçoadas e 4 feitiços diferentes para criar criaturas como eu. Quantas combinações de semente e feitiço ela pode experimentar?",
 
         answers: [
             "9 combinações",
@@ -759,7 +786,7 @@ const BancoQuestoes = {
     },
 
     {
-        question: "Para confundir os invasores, os goblins criaram uma senha com dois símbolos. Cada posição pode receber qualquer um dos 6 símbolos disponíveis, inclusive repetidos. Quantas senhas diferentes podem ser criadas?",
+        question: "Não conseguirá abrir o portão do castelo! A senha foi criada com dois símbolos. Cada posição pode receber qualquer um dos 6 símbolos disponíveis, inclusive repetidos. Quantas senhas diferentes podem ser criadas?",
 
         answers: [
             "12 senhas",
@@ -774,14 +801,15 @@ const BancoQuestoes = {
 ],
 
 // ========================================================
-// INIMIGO ID 11 — Zumbi2
+// INIMIGO ID 11 - Zumbi2
 // Habilidade: EF08MA03
+// Local: Antigo Cemitério - Labirinto Chuvoso
 // ========================================================
 
 11: [
 
     {
-        question: "Um cavaleiro precisa escolher uma arma para enfrentar os esqueletos. Na cripta, ele encontra 3 espadas, 4 lanças e 2 machados, todos diferentes. Se escolher apenas uma arma, quantas opções ele terá?",
+        question: "Arrrgh... Minha tumba guarda armas de antigos guerreiros! Existem 3 espadas, 4 lanças e 2 machados diferentes. Se você pudesse escolher apenas uma arma, quantas opções teria?",
 
         answers: [
             "9 opções",
@@ -794,7 +822,7 @@ const BancoQuestoes = {
     },
 
     {
-        question: "Uma sacerdotisa pode escolher entre 4 orações de proteção e 3 símbolos sagrados para realizar um ritual. Se utilizar uma oração e um símbolo, quantos rituais diferentes poderá realizar?",
+        question: "Você pensa que uma oração poderá salvá-lo? Para realizar um ritual de proteção contra os mortos-vivos, existem 4 orações diferentes e 3 símbolos sagrados. Escolhendo uma oração e um símbolo, quantos rituais diferentes podem ser realizados?",
 
         answers: [
             "7 rituais",
@@ -807,7 +835,7 @@ const BancoQuestoes = {
     },
 
     {
-        question: "Na cripta, uma porta mágica possui um código de três algarismos. Cada algarismo pode ser escolhido entre 0, 1, 2, 3 e 4, e a repetição é permitida. Quantos códigos diferentes podem ser formados?",
+        question: "Grrr... A passagem para o castelo está trancada por um código de três algarismos! Cada posição pode receber um número entre 0, 1, 2, 3 e 4, e a repetição é permitida. Quantos códigos diferentes podem ser formados?",
 
         answers: [
             "15 códigos",
@@ -820,7 +848,7 @@ const BancoQuestoes = {
     },
 
     {
-        question: "Um alquimista encontrou 3 essências de fogo, 2 essências de gelo e 4 essências de vento. Para criar um elixir especial, ele deve escolher uma essência de cada elemento. Quantos elixires diferentes poderá preparar?",
+        question: "A feiticeira que nos trouxe de volta domina três elementos: fogo, gelo e vento. Ela possui 3 essências de fogo, 2 de gelo e 4 de vento. Para preparar um elixir, precisa escolher uma essência de cada elemento. Quantos elixires diferentes poderá preparar?",
 
         answers: [
             "9 elixires",
@@ -833,7 +861,7 @@ const BancoQuestoes = {
     },
 
     {
-        question: "Um explorador pode entrar em uma catacumba por 5 passagens diferentes e sair por uma entre outras 3 passagens. Considerando que qualquer entrada pode ser combinada com qualquer saída, quantos percursos de ida e volta são possíveis?",
+        question: "Hehehe... Este labirinto possui 5 entradas para as catacumbas e outras 3 passagens para sair delas. Considerando que qualquer entrada pode ser combinada com qualquer saída, quantos percursos de ida e volta são possíveis?",
 
         answers: [
             "8 percursos",
@@ -848,14 +876,15 @@ const BancoQuestoes = {
 ],
 
 // ========================================================
-// INIMIGO ID 12 — Zumbi3
+// INIMIGO ID 12 - Zumbi3
 // Habilidade: EF08MA03
+// Local: Antigo Cemitério - Labirinto Chuvoso
 // ========================================================
 
 12: [
 
     {
-        question: "Um mago das sombras conhece 3 feitiços de ataque, 4 feitiços de defesa e 2 feitiços de cura. Para montar uma sequência mágica, ele escolhe um feitiço de cada categoria. Quantas sequências diferentes pode criar?",
+        question: "Mortal... Minha antiga senhora dominava a magia das sombras! Ela conhecia 3 feitiços de ataque, 4 de defesa e 2 de cura. Para criar uma sequência mágica, escolhia um feitiço de cada categoria. Quantas sequências diferentes poderia criar?",
 
         answers: [
             "9 sequências",
@@ -868,7 +897,7 @@ const BancoQuestoes = {
     },
 
     {
-        question: "Uma feiticeira possui 5 cristais de cores diferentes e 3 suportes mágicos diferentes. Para montar um artefato, ela escolhe um cristal e um suporte. Quantos artefatos distintos pode montar?",
+        question: "Grrr... Encontrei 5 cristais de cores diferentes e 3 suportes mágicos diferentes nesta cripta. Se eu escolher um cristal e um suporte para criar um artefato amaldiçoado, quantos artefatos distintos poderei montar?",
 
         answers: [
             "8 artefatos",
@@ -881,7 +910,7 @@ const BancoQuestoes = {
     },
 
     {
-        question: "O grimório de um mago exige uma senha de quatro letras. Para cada posição, ele pode escolher entre as letras A, B e C, podendo repetir letras. Quantas senhas diferentes são possíveis?",
+        question: "Você jamais decifrará os segredos da feiticeira! Seu grimório possui uma senha de quatro letras. Cada posição pode receber as letras A, B ou C, podendo repetir letras. Quantas senhas diferentes podem ser formadas?",
 
         answers: [
             "12 senhas",
@@ -894,7 +923,7 @@ const BancoQuestoes = {
     },
 
     {
-        question: "Para invocar um espírito guardião, um mago precisa escolher uma entre 4 runas, uma entre 3 velas encantadas e um entre 5 incensos mágicos. Quantas combinações de ritual são possíveis?",
+        question: "A feiticeira invocou espíritos para proteger o caminho até o castelo. Para realizar cada invocação, ela escolhe uma entre 4 runas, uma entre 3 velas encantadas e um entre 5 incensos mágicos. Quantas combinações de ritual são possíveis?",
 
         answers: [
             "12 combinações",
@@ -907,7 +936,7 @@ const BancoQuestoes = {
     },
 
     {
-        question: "Um aprendiz de magia pode escolher entre 6 cajados e 4 livros de feitiços. Ele também precisa selecionar uma entre 3 pedras mágicas para completar seu equipamento. Quantos equipamentos completos diferentes poderá montar?",
+        question: "Arrrgh... Para completar o equipamento de um servo das trevas, existem 6 cajados, 4 livros de feitiços e 3 pedras mágicas diferentes. Escolhendo um item de cada categoria, quantos equipamentos completos podem ser montados?",
 
         answers: [
             "13 equipamentos",
@@ -922,14 +951,15 @@ const BancoQuestoes = {
 ],
 
 // ========================================================
-// INIMIGO ID 13 — Zumbi4
+// INIMIGO ID 13 - Zumbi4
 // Habilidade: EF08MA03
+// Local: Antigo Cemitério - Labirinto Chuvoso
 // ========================================================
 
 13: [
 
     {
-        question: "Um cavaleiro precisa escolher uma montaria para sua jornada. O estábulo oferece 4 cavalos, 3 lobos gigantes e 2 lagartos de guerra, todos diferentes. Quantas montarias ele pode escolher?",
+        question: "Grrr... Você chegou longe demais, mortal! Para atravessar este cemitério, poderia escolher entre 4 cavalos, 3 lobos gigantes e 2 lagartos de guerra. Se pudesse escolher apenas uma montaria, quantas opções teria?",
 
         answers: [
             "9 montarias",
@@ -942,7 +972,7 @@ const BancoQuestoes = {
     },
 
     {
-        question: "Uma armeira real oferece 3 modelos de escudo, 5 modelos de peitoral e 4 modelos de elmo. Um cavaleiro escolherá uma peça de cada categoria. Quantos conjuntos de proteção diferentes pode montar?",
+        question: "Hehehe... A feiticeira que nos controla possui uma armadura especial! Ela pode escolher entre 3 modelos de escudo, 5 modelos de peitoral e 4 modelos de elmo. Quantos conjuntos de proteção diferentes pode montar?",
 
         answers: [
             "12 conjuntos",
@@ -955,7 +985,7 @@ const BancoQuestoes = {
     },
 
     {
-        question: "Para abrir um cofre amaldiçoado, o herói precisa inserir dois símbolos em sequência. Existem 8 símbolos disponíveis, e não é permitido repetir o primeiro símbolo na segunda posição. Quantos códigos diferentes podem ser formados?",
+        question: "Não abrirá o portão do castelo tão facilmente! Para destrancar a passagem, você precisa descobrir um código com dois símbolos em sequência. Existem 8 símbolos disponíveis, mas não é permitido repetir o primeiro símbolo na segunda posição. Quantos códigos diferentes podem ser formados?",
 
         answers: [
             "16 códigos",
@@ -968,7 +998,7 @@ const BancoQuestoes = {
     },
 
     {
-        question: "Um cavaleiro pode viajar de seu castelo até uma vila por 4 estradas diferentes. Da vila até uma torre, existem outras 6 estradas possíveis. Quantos trajetos diferentes ligam o castelo à torre passando pela vila?",
+        question: "Arrrgh... Existem 4 caminhos que levam deste cemitério até uma antiga vila. Da vila até o castelo assombrado, existem outras 6 estradas possíveis. Quantos trajetos diferentes ligam o cemitério ao castelo passando pela vila?",
 
         answers: [
             "10 trajetos",
@@ -981,7 +1011,7 @@ const BancoQuestoes = {
     },
 
     {
-        question: "Um ferreiro encantado fabrica anéis usando uma entre 3 pedras preciosas, um entre 4 metais e um entre 2 símbolos mágicos. Quantos anéis diferentes podem ser fabricados combinando esses elementos?",
+        question: "Se prepare para o desafio, mortal! A feiticeira fabrica anéis amaldiçoados usando uma entre 3 pedras preciosas, um entre 4 metais e um entre 2 símbolos mágicos. Quantos anéis diferentes podem ser fabricados combinando esses elementos?",
 
         answers: [
             "9 anéis",
@@ -996,14 +1026,15 @@ const BancoQuestoes = {
 ],
 
 // ========================================================
-// INIMIGO ID 14 — Boss da Fase 4
+// INIMIGO ID 14 — CAIM, O CAVALEIRO ESQUELETO
 // Habilidade: EF08MA03
+// Local: Centro do Antigo Cemitério - Labirinto Chuvoso
 // ========================================================
 
 14: [
 
     {
-        question: "Um dragão ancestral guarda 3 tipos de tesouros: coroas, colares e anéis. Existem 4 coroas diferentes, 5 colares diferentes e 2 anéis diferentes. Se um aventureiro receber um item de cada tipo, quantos conjuntos de tesouro poderá formar?",
+        question: "HAHAHAHA! Contemple o destino daqueles que ousam desafiar meu mestre! Enquanto Abel desperdiçava sua vida protegendo vermes insignificantes, eu escolhi conquistar riquezas e poder! Em seu tesouro existem 4 coroas amaldiçoadas, 5 colares sombrios e 2 anéis mágicos. Se eu escolher um item de cada tipo, quantos conjuntos diferentes poderei formar? Responda, verme! Quero saber se sua mente ainda funciona antes que eu esmague seu crânio!",
 
         answers: [
             "11 conjuntos",
@@ -1016,7 +1047,7 @@ const BancoQuestoes = {
     },
 
     {
-        question: "Para preparar uma expedição ao Abismo, uma equipe precisa escolher um entre 4 mapas, uma entre 3 bússolas mágicas e um entre 5 kits de sobrevivência. Quantos equipamentos de expedição diferentes podem ser organizados?",
+        question: "Seu tolo! Você ainda acredita em lealdade, justiça e fraternidade? HA! Essas são correntes que prendem os fracos! Para alcançar meu mestre, preciso preparar uma expedição ao castelo. Tenho 4 mapas, 3 bússolas mágicas e 5 kits de sobrevivência. Escolhendo um item de cada categoria, quantos equipamentos de expedição diferentes posso organizar? Calcule depressa! Minha paciência é tão curta quanto sua expectativa de sobreviver!",
 
         answers: [
             "12 equipamentos",
@@ -1029,7 +1060,7 @@ const BancoQuestoes = {
     },
 
     {
-        question: "O portal do dragão exige uma senha de três runas. Em cada posição, é possível escolher entre 7 runas, sem restrição de repetição. Quantas senhas diferentes podem ser formadas?",
+        question: "Escute com atenção, miserável! Nas profundezas do castelo, meu mestre aguarda o momento de recuperar seu poder. Para romper o selo que o mantém aprisionado, preciso de uma senha de três runas. Existem 7 runas disponíveis para cada posição, e elas podem ser repetidas. Quantas senhas diferentes podem ser formadas? HAHAHA! Tantas possibilidades... e nenhuma delas lhe dará uma chance contra mim!",
 
         answers: [
             "21 senhas",
@@ -1042,7 +1073,7 @@ const BancoQuestoes = {
     },
 
     {
-        question: "Um caçador de dragões possui 2 tipos de armadilhas, 5 tipos de iscas e 3 tipos de redes mágicas. Para montar um plano, ele escolhe um item de cada categoria. Quantos planos diferentes pode montar?",
+        question: "Sabe o que mais me diverte em você? Essa sua insistência em ajudar os outros! Abel também era assim... E veja onde sua bondade o deixou! Agora, imagine que eu precise preparar uma armadilha para transformar sua jornada em um verdadeiro pesadelo. Tenho 2 tipos de armadilhas, 5 tipos de iscas e 3 tipos de redes mágicas. Escolhendo um item de cada categoria, quantos planos diferentes posso elaborar para capturá-lo? Escolha sua resposta com cuidado... Cada erro seu torna minha diversão ainda maior!",
 
         answers: [
             "10 planos",
@@ -1055,7 +1086,7 @@ const BancoQuestoes = {
     },
 
     {
-        question: "Na batalha final, um herói pode escolher entre 4 dragões aliados para montar e entre 3 selas encantadas para equipar seu companheiro. Cada dragão pode usar qualquer uma das selas. Quantas combinações de dragão e sela são possíveis?",
+        question: "BASTA! Cansei de brincar com você! Quando libertar meu mestre, receberei um exército capaz de reduzir reinos inteiros a cinzas! Existem 4 dragões aliados disponíveis e 3 selas encantadas diferentes. Cada dragão pode utilizar qualquer uma das selas. Quantas combinações de dragão e sela são possíveis? Responda! Quero ver se consegue ao menos compreender a dimensão do poder que conquistarei... Antes de se tornar mais um cadáver esquecido neste cemitério!",
 
         answers: [
             "7 combinações",
