@@ -1109,7 +1109,7 @@ const BancoQuestoes = {
 15: [
 
     {
-        question: "Hehehe! Você entrou no meu jardim de cogumelos mágicos! 🍄 Em um canteiro existem 4 cogumelos vermelhos e 6 cogumelos azuis. Um aventureiro escolhe um cogumelo ao acaso, devolve-o ao canteiro e depois escolhe outro. Qual é a probabilidade de retirar dois cogumelos vermelhos? Considere que a primeira retirada não altera a segunda.",
+        question: "Hehehe! Você entrou no meu jardim de cogumelos mágicos! Em um canteiro existem 4 cogumelos vermelhos e 6 cogumelos azuis. Um aventureiro escolhe um cogumelo ao acaso, devolve-o ao canteiro e depois escolhe outro. Qual é a probabilidade de retirar dois cogumelos vermelhos? Considere que a primeira retirada não altera a segunda.",
 
         answers: [
             "16%",
@@ -1175,7 +1175,8 @@ const BancoQuestoes = {
 
 ],
 
-    // ========================================================
+
+// ========================================================
 // INIMIGO ID 16 — LIVRO AMALDIÇOADO
 // Habilidade: EF09MA20
 // Local: Biblioteca abandonada do castelo do mestre maligno
@@ -1250,8 +1251,8 @@ const BancoQuestoes = {
 
 ],
 
-    // ========================================================
-// INIMIGO ID 17 — CHEFÃO DO CASTELO AMALDIÇOADO
+// ========================================================
+// INIMIGO ID 17 — Teste
 // Habilidade: EF09MA20
 // Local: Topo do castelo amaldiçoado, sob a lua sangrenta
 // ========================================================
@@ -1515,7 +1516,7 @@ const BancoQuestoes = {
 
 ],
 
-    // ========================================================
+// ========================================================
 // INIMIGO ID 19 — CADEADO MÁGICO DO CALABOUÇO
 // Habilidade: EF09MA20
 // Local: Calabouço escuro do castelo do mago maligno
