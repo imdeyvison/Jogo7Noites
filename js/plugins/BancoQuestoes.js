@@ -1577,7 +1577,7 @@ const BancoQuestoes = {
     },
 
     {
-        question: "O cadeado começa a tremer, e as correntes que prendem os prisioneiros brilham em vermelho. Dois selos precisam ser rompidos: o primeiro tem probabilidade de 1/4 de se quebrar, e o segundo tem probabilidade de 2/5. Considerando que os eventos são independentes, a voz do mago pergunta: \"Qual é a probabilidade de os dois selos se romperem e libertarem todos os prisioneiros? Falhe, e eles permanecerão aqui por toda a eternidade!\"",
+        question: "O cadeado começa a tremer, e as correntes brilham em vermelho. Dois selos precisam ser rompidos: o primeiro tem probabilidade de 1/4 de se quebrar, e o segundo tem probabilidade de 2/5. Considerando que os eventos são independentes, uma voz ecoa: \"Qual é a probabilidade de os dois selos se romperem e libertarem todos os prisioneiros? Falhe, e irá permanecer aqui por toda a eternidade!\"",
 
         answers: [
             "3/5, ou 60%",
