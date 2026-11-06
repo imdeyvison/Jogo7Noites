@@ -10,5 +10,6 @@ var $plugins =
 {"name":"BancoQuestoes","status":true,"description":"Banco de questões matemáticas por inimigo","parameters":{}},
 {"name":"DesafioMatematico","status":true,"description":"Sistema de desafios matemáticos - Etapa 2","parameters":{}},
 {"name":"OcultarComandosDeBatalha","status":true,"description":"","parameters":{}},
-{"name":"ReordenarComandosDeBatalha","status":true,"description":"","parameters":{}}
+{"name":"ReordenarComandosDeBatalha","status":true,"description":"","parameters":{}},
+{"name":"OcultarStatusdePM","status":true,"description":"Oculta a exibição de PM (Pontos de Magia) nas janelas de status e menus.","parameters":{}}
 ];
