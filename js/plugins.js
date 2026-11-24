@@ -13,5 +13,6 @@ var $plugins =
 {"name":"QuebraDeLinhaAutomatizada","status":true,"description":"Ativa quebra automática (Word Wrap), espaçamento vertical extra e texto justificado.","parameters":{"lineSpacing":"8","justifyText":"true"}},
 {"name":"EliMZ_Book","status":true,"description":"♦6.5.1♦ Essential plugin for all Eli plugins.","parameters":{"checkVersion":"true","showNewReleases":"true","showNews":"true","updateErrorPrinter":"true","iterateEventList":"true","engine":"{\"styleOverflow\":\"false\",\"disableEffekseer\":\"false\",\"--- BUG FIXES ---\":\"\",\"fixBitmapStartLoad\":\"true\",\"--- PERFORMANCE ---\":\"\",\"colorCache\":\"true\",\"windowLayerOptimization\":\"Disabled\"}","playtest":"{\"gameFocus\":\"false\",\"enableGameWindowPosition\":\"false\",\"alignX\":\"left\",\"offsetX\":\"10\",\"alignY\":\"top\",\"offsetY\":\"10\",\"openDevTools\":\"false\",\"quickRestart\":\"true\",\"startFps\":\"false\"}"}},
 {"name":"EliMZ_Zoom","status":true,"description":"♦1.3.1♦ Add the default zoom feature to plugin command.","parameters":{"persistentZoomSw":"8"}},
-{"name":"EsticarTela","status":true,"description":"Compensa a escala do Windows (125%/150%) e preenche a janela sem barras pretas.","parameters":{}}
+{"name":"EsticarTela","status":true,"description":"Compensa a escala do Windows (125%/150%) e preenche a janela sem barras pretas.","parameters":{}},
+{"name":"TecladoDeSelecao","status":true,"description":"Permite digitar o nome do personagem diretamente usando o teclado do computador.","parameters":{}}
 ];
