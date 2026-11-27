@@ -28,7 +28,69 @@
         );
     };
 
+// ============================================================
+    // BOTÃO "RESOLVER QUESTÃO" EM 2 LINHAS E MAIS ALTO
+    // ============================================================
 
+    const _actorCommandItemHeight = Window_ActorCommand.prototype.itemHeight;
+    Window_ActorCommand.prototype.itemHeight = function(index) {
+        const baseHeight = _actorCommandItemHeight.call(this);
+        if (this._list && typeof index === "number" && this._list[index]) {
+            if (this.commandSymbol(index) === "mathQuestion") {
+                return Math.floor(baseHeight * 2.0); // Altura ideal para 2 linhas
+            }
+        }
+        return baseHeight;
+    };
+
+    const _actorCommandItemRect = Window_ActorCommand.prototype.itemRect;
+    Window_ActorCommand.prototype.itemRect = function(index) {
+        const rect = _actorCommandItemRect.call(this, index);
+        if (!this._list || typeof index !== "number" || !this._list[index]) {
+            return rect;
+        }
+
+        const baseHeight = _actorCommandItemHeight.call(this);
+        const extraHeight = Math.floor(baseHeight * 0.9);
+        let offsetY = 0;
+
+        for (let i = 0; i < index; i++) {
+            if (this._list[i] && this.commandSymbol(i) === "mathQuestion") {
+                offsetY += extraHeight;
+            }
+        }
+
+        rect.y += offsetY;
+        if (this.commandSymbol(index) === "mathQuestion") {
+            rect.height = baseHeight + extraHeight;
+        }
+        return rect;
+    };
+
+    const _actorCommandDrawItem = Window_ActorCommand.prototype.drawItem;
+    Window_ActorCommand.prototype.drawItem = function(index) {
+        if (this._list && this._list[index] && this.commandSymbol(index) === "mathQuestion") {
+            const rect = this.itemLineRect(index);
+            const align = this.itemTextAlign();
+            this.resetTextColor();
+            this.changePaintOpacity(this.isCommandEnabled(index));
+
+            const lineH = this.lineHeight();
+
+            // AJUSTE AQUI A DISTÂNCIA ENTRE AS PALAVRAS:
+            // Valores menores (ex: 0.65) aproximam; valores maiores (ex: 0.95) afastam.
+            const espacoEntreLinhas = Math.floor(lineH * 0.95);
+
+            // Mantém o conjunto das 2 palavras centralizado verticalmente no botão
+            const alturaTotalTexto = lineH + espacoEntreLinhas;
+            const startY = rect.y + Math.floor((rect.height - alturaTotalTexto) / 2);
+
+            this.drawText("Resolver", rect.x, startY, rect.width, align);
+            this.drawText("Questão", rect.x, startY + espacoEntreLinhas, rect.width, align);
+        } else {
+            _actorCommandDrawItem.call(this, index);
+        }
+    };
     // ============================================================
     // JANELA DA QUESTÃO
     // ============================================================
